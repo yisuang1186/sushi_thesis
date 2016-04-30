@@ -1,0 +1,37 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Background and Motivation}{2}
+\contentsline {section}{\numberline {1.2}Contribution}{4}
+\contentsline {section}{\numberline {1.3}Thesis Outline}{5}
+\contentsline {chapter}{\numberline {2}Background}{6}
+\contentsline {section}{\numberline {2.1}RF-based Localization}{6}
+\contentsline {subsection}{\numberline {2.1.1}WiFi Positioning System}{6}
+\contentsline {subsection}{\numberline {2.1.2}Ultra-wide Band}{8}
+\contentsline {section}{\numberline {2.2}Inertia-based Localization}{10}
+\contentsline {section}{\numberline {2.3}Camera-based Localization}{10}
+\contentsline {chapter}{\numberline {3}Methodology for Application Development}{12}
+\contentsline {section}{\numberline {3.1}Experimental Device}{14}
+\contentsline {section}{\numberline {3.2}Application}{18}
+\contentsline {subsection}{\numberline {3.2.1}Estimote iBeacon Application}{19}
+\contentsline {subsection}{\numberline {3.2.2}Our Own iBeacon Application}{20}
+\contentsline {section}{\numberline {3.3}Performance Evaluation}{24}
+\contentsline {chapter}{\numberline {4}iBeacon based Intelligent In-Room Presence Detection}{25}
+\contentsline {section}{\numberline {4.1}Background}{27}
+\contentsline {section}{\numberline {4.2}Methodology}{29}
+\contentsline {section}{\numberline {4.3}Performance Evaluation}{33}
+\contentsline {section}{\numberline {4.4}Comparison and Results}{36}
+\contentsline {section}{\numberline {4.5}Conclusion}{38}
+\contentsline {chapter}{\numberline {5}iBeacon based Newborns Localization in hospitals}{39}
+\contentsline {section}{\numberline {5.1}Path-loss Modeling of iBeacon}{40}
+\contentsline {subsection}{\numberline {5.1.1}Modeling and Validation}{40}
+\contentsline {subsection}{\numberline {5.1.2}Overall Path-loss Modeling Results}{42}
+\contentsline {section}{\numberline {5.2}Scenarios of In-Room Localization}{43}
+\contentsline {section}{\numberline {5.3}Performance Evaluation}{44}
+\contentsline {subsection}{\numberline {5.3.1}Evaluation Scenario}{45}
+\contentsline {subsection}{\numberline {5.3.2}Localization Error Estimation of Deployment Patterns.}{46}
+\contentsline {subsection}{\numberline {5.3.3}CRLB for Performance Evaluation in 3D.}{47}
+\contentsline {section}{\numberline {5.4}Results and Discussion}{48}
+\contentsline {subsection}{\numberline {5.4.1}Effect of Different Deployment Patterns.}{49}
+\contentsline {subsection}{\numberline {5.4.2}Effect of Different Number of iBeacons}{50}
+\contentsline {chapter}{\numberline {6}Conclusion}{57}
+\contentsline {chapter}{\numberline {A}More to say}{58}
+\contentsline {section}{\numberline {A.1}A section within an appendix.}{58}
