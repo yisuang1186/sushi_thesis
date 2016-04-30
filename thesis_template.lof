@@ -1,46 +1,42 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces First Generation iBeacon of Estimote.}}{8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Second Generation iBeacon of Estimote.}}{9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Screenshots of Estimote iBeacon Application.}}{14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{14}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{14}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{14}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Objective-C Code Example.}}{15}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Screenshots of Our Own iBeacon Application.}}{16}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Data Extracted from Our Own iBeacon Application.}}{16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Our Server for the System.}}{17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces RFID Tag Used in Nursery Room.}}{13}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{13}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{13}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces First Generation iBeacon of Estimote.}}{15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Second Generation iBeacon of Estimote.}}{16}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Screenshots of Estimote iBeacon Application.}}{21}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{21}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{21}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{21}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{21}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Objective-C Code Example.}}{22}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Screenshots of Our Own iBeacon Application.}}{23}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Data Extracted from Our Own iBeacon Application.}}{23}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Our Server for the System.}}{24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Typical screenshots of APP provided by Estimote.}}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{20}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Typical screenshot of our self-designed APP.}}{22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Experimental environment and three different types of movements.}}{23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Experimental environment and three different types of movements.}}{26}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces RSSI vs Time in Double iBeacon Leaving Scenario.}}{27}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces RSSI vs Time in Double iBeacon Passing Scenario.}}{28}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces RSSI vs Time in Single iBeacon Entering and Leaving Scenario.}}{29}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Comparison of Single iBeacon Approach in Different Scenarios.}}{30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Typical screenshots of APP provided by Estimote.}}{28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{28}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{28}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{28}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Typical screenshot of our self-designed APP.}}{30}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Experimental environment and three different types of movements.}}{31}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Experimental environment and three different types of movements.}}{33}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces RSSI vs Time in Double iBeacon Leaving Scenario.}}{34}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces RSSI vs Time in Double iBeacon Passing Scenario.}}{35}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces RSSI vs Time in Single iBeacon Entering and Leaving Scenario.}}{36}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Comparison of Single iBeacon Approach in Different Scenarios.}}{37}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Two Path-loss Models Comparison.}}{41}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Comparison of DME CDF.}}{42}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Main Scenario of In-Room Localization.}}{44}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Algorithm of In-Room Localization.}}{45}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Scenarios of In-Room Localization.}}{46}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Scenario I: Four iBeacons at the Corners and One at the Center.}}{47}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Scenario II: Four iBeacons in the Middle and One at the Center.}}{48}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Scenario III: Four iBeacons in the Middle with rotation and One at the Center.}}{49}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Contour of Estimate Location Error in 3D When the Detection Height is One Meter.}}{50}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces CDF Comparison for Different Deployments.}}{52}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Contour of estimate location error of 3 iBeacons.}}{53}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Contour of estimate location error of 4 iBeacons.}}{54}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Contour of estimate location error of 5 iBeacons.}}{55}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces CDF comparison for different number of iBeacons.}}{56}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Two Path-loss Models Comparison.}}{38}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of DME CDF.}}{39}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Main Scenario of In-Room Localization.}}{41}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Algorithm of In-Room Localization.}}{41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Scenarios of In-Room Localization.}}{43}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Scenario I: Four iBeacons at the Corners and One at the Center.}}{44}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scenario II: Four iBeacons in the Middle and One at the Center.}}{45}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Scenario III: Four iBeacons in the Middle with rotation and One at the Center.}}{46}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Contour of Estimate Location Error in 3D When the Detection Height is One Meter.}}{47}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF Comparison for Different Deployments.}}{48}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Contour of estimate location error of 3 iBeacons.}}{49}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Contour of estimate location error of 4 iBeacons.}}{51}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Contour of estimate location error of 5 iBeacons.}}{52}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF comparison for different number of iBeacons.}}{53}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
