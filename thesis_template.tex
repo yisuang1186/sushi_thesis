@@ -311,7 +311,7 @@ This thesis is organized as follow: Chapter 1 provided a brief introduction to t
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Background and application develpment environment}
+\chapter{Background and Application Develpment Environment}
 In order to utilize iBeacon for either in-room presence detection or in-room localization, it is necessary to build a system, which can measure the physical, environmental information and at the same time perform computational tasks. As for sensing or measuring the physical signal, the hardware components of the system in this thesis include:
 
 \begin{itemize}
@@ -457,7 +457,7 @@ When it comes to our project, we use Objective-C to develop our app to get the R
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/3_6.eps}}
+			\scalebox{0.9}{\includegraphics[]{pictures/3_6.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Screenshots of Our Own iBeacon Application.}
@@ -467,7 +467,7 @@ When it comes to our project, we use Objective-C to develop our app to get the R
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/3_7.eps}}
+			\scalebox{0.9}{\includegraphics[]{pictures/3_7.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Data Extracted from Our Own iBeacon Application.}
@@ -620,7 +620,7 @@ In order to implement the double iBeacons in-room presence detection system, it 
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/3_11.eps}}
+			\scalebox{0.9}{\includegraphics[]{pictures/3_11.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Experimental environment and three different types of movements.}
@@ -707,7 +707,17 @@ The RSSI recording process is initiated by the motion sensor reading from iBeaco
   \end{algorithmic}
 \end{algorithm}
 
-Since we attach one of the iBeacon to a specific side of the door and another iBeacon to the same position on the other side, the path-loss between each iBeacon and the iPhone is supposed to be different. Such path-loss difference is caused by the wooden/metallic door (and surrounding walls), which is lossy medium for radio propagation. We denote RSSI reading of the two iBeacons as RSSIout for outside iBeacon and RSSIin for inside iBeacon, so that the server side can easily determine the MH movements by the logic shown in Algorithm 2. The performance of double iBeacon approach will be investigated in the following sections.
+\begin{figure}[htb]
+	\begin{center}
+		\begin{tabular}{c}
+			\scalebox{0.9}{\includegraphics[]{pictures/34.eps}}
+		\end{tabular}
+	\end{center}
+	\caption{Experimental environment and three different types of movements.}
+	\label{fig: 3.4}
+\end{figure}
+
+Since we attach one of the iBeacon to a specific side of the door and another iBeacon to the same position on the other side, the path-loss between each iBeacon and the iPhone is supposed to be different. Such path-loss difference is caused by the wooden/metallic door (and surrounding walls), which is lossy medium for radio propagation. We denote RSSI reading of the two iBeacons as RSSIout for outside iBeacon and RSSIin for inside iBeacon, so that the server side can easily determine the MH movements by the logic shown in Algorithm 2. The flow chart of the algorithm is shown in Fig~\ref{fig: 3.4}.The performance of double iBeacon approach will be investigated in the following sections.
 
 
 
@@ -858,7 +868,7 @@ In order to find out how Estimote company measure the distance by iBeacon, we re
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/4_1.eps}}
+			\scalebox{1.0}{\includegraphics[]{pictures/4_1.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Two Path-loss Models Comparison.}
@@ -883,7 +893,7 @@ where d is the real distance we have in measurement. We calculate the DME for ea
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/4_2.eps}}
+			\scalebox{1.0}{\includegraphics[]{pictures/4_2.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Comparison of DME CDF.}
@@ -945,7 +955,7 @@ Ranging-based localization is the task of identifying the positions of a network
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.9}{\includegraphics[]{pictures/4_3.eps}}
+			\scalebox{1.4}{\includegraphics[]{pictures/4_3.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Main Scenario of In-Room Localization.}
@@ -957,7 +967,7 @@ Fig~\ref{fig: 4.3} shows the main scenario for in-room localization that there a
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.9}{\includegraphics[]{pictures/4_4.eps}}
+			\scalebox{1.4}{\includegraphics[]{pictures/4_4.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Algorithm of In-Room Localization.}
@@ -1041,28 +1051,20 @@ In this section, we use CRLB as an evaluation metric for the performance of iBea
 \section{Results and Discussion}
 In this section, we compare the CDF of the error in three different deployment patterns to present the results of our in-room deployments. Later on, we also observe the influence of number of iBeacon by simulations in the same conditions to show the most efficient deployment method.
 
-\subsection{Effect of Different Deployment Patterns.}
-In order to observe the performance of 3 different scenarios directly, we calculate the CDF of estimation of location error and compare them. In Fig~\ref{fig: 5.10}. we can see that the deployment with four iBeacons in the middle area has the best performance, this is probably because in this scenario it owes the highest overlap rate of coverage area, which means that most part of the room can be located by 2 or more iBeacons and results in the highest accuracy.
-
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/5_10.pdf}}
+			\scalebox{0.9}{\includegraphics[]{pictures/4_10.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{CDF Comparison for Different Deployments.}
 	\label{fig: 5.10}
 \end{figure}
 
-Apart from that, based on the figures we give before, we also calculate the means and variances of CDF of the location estimation error in the different scenarios. From Fig~\ref{fig: 5.10} we can claim that 5 iBeacons in the middle area performs best (green line in Fig~\ref{fig: 5.10}). The comparison is in table-3.
-
-\subsection{Effect of Different Number of iBeacons}
-Apart from the different deployment patterns, it is more reasonable to take into account the number of iBeacon. With the same simulation conditions in Matlab, we conclude the performance with 3, 4 and 5 iBeacons in the same environment. One of the simulations can be viewed in Fig~\ref{fig: 5.11}.
-
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/5_11.pdf}}
+			\scalebox{0.9}{\includegraphics[]{pictures/4_11.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Contour of estimate location error of 3 iBeacons.}
@@ -1072,7 +1074,7 @@ Apart from the different deployment patterns, it is more reasonable to take into
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/5_12.pdf}}
+			\scalebox{0.9}{\includegraphics[]{pictures/4_12.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Contour of estimate location error of 4 iBeacons.}
@@ -1082,19 +1084,27 @@ Apart from the different deployment patterns, it is more reasonable to take into
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/5_13.pdf}}
+			\scalebox{0.9}{\includegraphics[]{pictures/4_13.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Contour of estimate location error of 5 iBeacons.}
 	\label{fig: 5.13}
 \end{figure}
 
+\subsection{Effect of Different Deployment Patterns.}
+In order to observe the performance of 3 different scenarios directly, we calculate the CDF of estimation of location error and compare them. In Fig~\ref{fig: 5.10}. we can see that the deployment with four iBeacons in the middle area has the best performance, this is probably because in this scenario it owes the highest overlap rate of coverage area, which means that most part of the room can be located by 2 or more iBeacons and results in the highest accuracy.
+
+Apart from that, based on the figures we give before, we also calculate the means and variances of CDF of the location estimation error in the different scenarios. From Fig~\ref{fig: 5.10} we can claim that 5 iBeacons in the middle area performs best (green line in Fig~\ref{fig: 5.10}). The comparison is in table-3.
+
+\subsection{Effect of Different Number of iBeacons}
+Apart from the different deployment patterns, it is more reasonable to take into account the number of iBeacon. With the same simulation conditions in Matlab, we conclude the performance with 3, 4 and 5 iBeacons in the same environment. One of the simulations can be viewed in Fig~\ref{fig: 5.11}.
+
 Above is the error estimation result with 3,4 and 5 iBeacons in the middle area since we have already certified that the deployment in the middle owes the best performance. In addition, we can still calculate the CDF of the location estimation error to compare them and reach a conclusion. 
 
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{0.5}{\includegraphics[]{pictures/5_14.pdf}}
+			\scalebox{0.9}{\includegraphics[]{pictures/4_14.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{CDF comparison for different number of iBeacons.}
