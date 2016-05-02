@@ -51,6 +51,9 @@
 \usepackage[tight, footnotesize]{subfigure}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{amsmath}
 
 
 % leave 1.5in margin to the left and 1in margin to the other
@@ -861,7 +864,7 @@ For both the RSS based WiFi localization system and the TOA based UWB localizati
 \subsection{Modeling and Validation}
 Before we start to collect data, we need to validate the measurement environment can use the IEEE 802.11 model or not. Since RSS is the most important factor in this project, the path-loss model must be established. We do linear match fitting with different iBeacon data collected by out app to try to find out the best path-loss model of iBeacon. Distance measure error (DME) is the criterion we use to compare the performance of each model. The CDF of DME of different can tell us which model is better.
 
-With the data we collected, here is the path-loss model in LOS situation from Matlab. After linear match fitting with the RSS, we have figure below which shows us the power gradient and the pass-loss in first meter.
+With the data we collected, here is the path-loss model in LOS situation for RSS based ranging. After linear match fitting with the RSS, we have figure below which shows us the power gradient and the pass-loss in first meter.
 
 In order to find out how Estimote company measure the distance by iBeacon, we recorded the RSS data shown in Estimote app when the app indicated we were on the boundaries of first and second circles(distances are 1m and 5m). With the RSS data of these two points, we can figure out the path-loss model using by iBeacon. We have two path-loss models for each iBeacon coming from Estimote company and our own app, we can see that there are some differences between these two models as shown in Fig~\ref{fig: 4.1}.
 
@@ -875,15 +878,19 @@ In order to find out how Estimote company measure the distance by iBeacon, we re
 	\label{fig: 4.1}
 \end{figure}
 
-With the data we collected by mint iBeacon, we can find out the estimate distance by using the RSS data and path-loss model. Since the two models are both like
+With the data we collected by mint iBeacon, we can find out the estimate distance by using the RSS data and path-loss model. Both the estimote path-loss model and our path-loss model follow the similar formulation with the IEEE 802.11 SISO radio propagation model, which can be given as:
+
 \begin{equation}
-RSSI = P_0+10{\alpha}log\hat{d}
+\textrm{RSSI}(\hat{d}) = P_r =\textrm{P}_t-\textrm{L}_p(d_0)-10\alpha\log_{10}\frac{d}{d_0}+\sigma_{SF}
 \end{equation}
-We can have
+
+where $d$ denotes to the actual distance between the smart phone and a specific iBeacon, $\textrm{P}_t$ is the constant transmit power of iBeacons, $\textrm{L}_p(d_0)$ is the path-loss at reference distance $d_0$ (i.e. 1m in this work), $\alpha$ denotes to the distance-power gradient and $\sigma$ denotes to the shadow fading effect. the ranging estimate can be shown as
+
 \begin{equation}
-\hat{d} = 10^\frac{RSSI - P_0}{10\alpha}
+\hat{d}=10^{\left( \frac{\textrm{RSSI}(\hat{d})-\textrm{P}_t+\textrm{L}_{p}(d_0)}{10\alpha} \right)}\times d_0
 \end{equation}
-Then the DME can be shown as
+
+Then the DME can be shown as the difference between estimate distance $\hat{d}$ and actual distance $d$:
 \begin{equation}
 DME = |d - \hat{d}|
 \end{equation}
@@ -908,22 +915,24 @@ In this part, different iBeacons have different path-loss model which may be cau
 \begin{table}[!htp]
 \begin{center}
 \caption{Performance of proposed in-room presence detection approaches.} 
-\begin{tabular}[b]{ c || c c c}
+\begin{tabular}[b]{ c || c | c | c || c | c | c}
 	\hline
 	\hline
-	$\textbf{Implementation}$	& $\textbf{iPhone}$   & $\textbf{Detection}$ & $\textbf{Detection}$\\
-	$\textbf{approaches}$ & $\textbf{position}$ & $\textbf{rate}$      & $\textbf{rate (\%)}$\\
-  \hline
-	Double iBeacon 	& any						& 1521/1521 & 100\% \\
+	& \multicolumn{3} {c||} {$\textbf{Estimote iBeacon}$} 	& \multicolumn{3} {c} {$\textbf{Our own}$}  \\
+	& \multicolumn{3} {c||} {$\textbf{path-loss model}$} 	& \multicolumn{3} {c} {$\textbf{path-loss model}$}  \\
+	  	
+  	\hline
+	$\textbf{Characteristic}$ 	& $\textrm{L}_p(d_0)$ & $\alpha$ & $\sigma_{SF}$ & $\textrm{L}_p(d_0)$ & $\alpha$ & $\sigma_{SF}$ \\
 	\hline								
-									& in hand 			& 500/500		& 100\% \\
-	Single iBeacon	& pant pocket 	& 534/536		& 99.63\% \\
-									& shirt pocket	& 500/500		& 100\% \\
+	$\textbf{iBeacon 1}$ 		& 54.8995 & 2.5214 & 3.2013 & 55.3555 &	2.4674 & 3.5773 \\
+	\hline
+	$\textbf{iBeacon 2}$ 		& 55.5000 & 2.2540 & 4.2992 & 56.8918 &	2.3689 & 3.0501 \\
+	\hline
+	$\textbf{iBeacon 3}$ 		& 52.5628 & 2.7693 & 4.1208 & 56.1283 &	2.5387 & 3.1099 \\
 	\hline
 	\hline
 \end{tabular}
 \end{center}
-\vspace{-6mm}
 \end{table}
 
 Based on the models, we also calculate the DME of each model to decide which one owes a better performance, the comparison results are shown in table-2, where me(m) means the mean of DME using each model and σe(m) means the standard variance of DME using each model.
@@ -931,22 +940,24 @@ Based on the models, we also calculate the DME of each model to decide which one
 \begin{table}[!htp]
 \begin{center}
 \caption{Performance of proposed in-room presence detection approaches.} 
-\begin{tabular}[b]{ c || c c c}
+\begin{tabular}[b]{ c || c | c || c | c}
 	\hline
 	\hline
-	$\textbf{Implementation}$	& $\textbf{iPhone}$   & $\textbf{Detection}$ & $\textbf{Detection}$\\
-	$\textbf{approaches}$ & $\textbf{position}$ & $\textbf{rate}$      & $\textbf{rate (\%)}$\\
-  \hline
-	Double iBeacon 	& any						& 1521/1521 & 100\% \\
+	& \multicolumn{2} {c||} {$\textbf{Estimote iBeacon}$} 	& \multicolumn{2} {c} {$\textbf{Our own}$}  \\
+	& \multicolumn{2} {c||} {$\textbf{path-loss model}$} 	& \multicolumn{2} {c} {$\textbf{path-loss model}$}  \\
+	  	
+  	\hline
+	$\textbf{Characteristic}$ 	& $\mu_e$ & $\sigma_e$ & $\mu_e$ & $\sigma_{e}$ \\
 	\hline								
-									& in hand 			& 500/500		& 100\% \\
-	Single iBeacon	& pant pocket 	& 534/536		& 99.63\% \\
-									& shirt pocket	& 500/500		& 100\% \\
+	$\textbf{iBeacon 1}$ 		& 0.8716 & 1.1819 & 0.8771 & 1.2179 \\
+	\hline
+	$\textbf{iBeacon 2}$ 		& 1.6717 & 4.9553 & 1.0788 & 1.4071 \\
+	\hline
+	$\textbf{iBeacon 3}$ 		& 0.1739 & 2.0837 & 0.9872 & 1.9240 \\
 	\hline
 	\hline
 \end{tabular}
 \end{center}
-\vspace{-6mm}
 \end{table}
 
 \section{Scenarios of In-Room Localization}
@@ -976,6 +987,9 @@ Fig~\ref{fig: 4.3} shows the main scenario for in-room localization that there a
 
 To the localization in this room, we record the RSS data from all these 4 iBeacons, from each iBeacon RSS data we can calculate a distance range based on the path-loss model we construct in section 3.2. Then we use that distance range as radius range and take the location of each iBeacon as a center to draw circles. The overlap area shown in red shows the possible location we locate by iBeacon, shown in Fig~\ref{fig: 4.4}.
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Performance Evaluation}
 In this part, we firstly introduce the scenarios we define to evaluate the performance of using iBeacon in localization. Then based on Matlab, we simulate the in-room localization environment and calculate the estimation of location error to show the effects of different deployment patterns and different iBeacon numbers. Furthermore, we promote our model from 2D to 3D scenario and figure out the estimation of location error to present the feasibility in this case.
 
@@ -994,13 +1008,88 @@ In order to compare the performance of different localization methods, in this p
 
 Since we want find the most efficient way of localization, different deployment methods are introduced, based on which we can compare and make conclusion. It is easy to know that more iBeacons stands for more localization accuracy, but what we pursue is how to reach the highest accuracy with special given iBeacons, so there are 3 scenarios we simulated shown in Fig~\ref{fig: 5.5}. In the first scenario, there are four iBeacons in the four corners of the room and another one in the middle of the room. As for the second scenario, there are four iBeacons in the four corners of the middle area of the room and also another one in the middle of the room. To the last scenario, it is almost as the same as the second one, except for the rotation of 45 degrees of the four iBeacons deployed in the middle area, which means we rotate the square formed by the second deployment method with 45 degrees into a new deployment pattern.
 
-\subsection{Localization Error Estimation of Deployment Patterns.}
-As we discussed before, there are 3 scenarios we analyze and compare inorder to evaluate the feasibility and effectiveness. From the Matlab we have such conclusions. The simulation conditions for location error analysis are as follows:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Pr(0) = 160W = 52dBm, and  α = 2.4583 which is the mean of the  α  values of real path-loss model derived in part II (shown in Table-1).
+\subsection{Evaluation Metric and CRLB Derivation}
+In estimation theory and statistics, the Cramer-Rao Lower Bound (CRLB) expresses a lower bound on the variance of estimators of a deterministic parameter [40][41]. In its simplest form, the bound states that the variance of any unbiased estimator is at least as high as the inverse of the Fisher informa- tion [41]. Since the CRLB develops the lowest possible root-mean-square (RMS) error among all unbiased methods, it has been soon applied to navigation and geolocation science and technology [42][43]. CRLB has been discovered to be able to estimating the max possible performance of certain localization system or evaluating the potential improvement of specific localization algorithm. Both aspects help avoiding unnecessary implementation of the actual localization approach [44].
 
-In the first scenario, we assume that there are five APs installed in a building with their coordinates being AP 1 (15m, 15m), AP 2 (15m, -15m), AP 3 (-15m, -15m), AP 4 (-15m, 15m), and AP 5 (0.1m, 0.1m). If an MS at a given location receives signals from these APs, its position can be determined by triangulation or least square estimation. The simulation result is shown in Fig~\ref{fig: 5.6}.
+% add CRLB derivation
+Consider the smart phone whose location is being estimated is indexed by 1, and there are $m$ iBeacons mounted inside the room with indexes 2...$m + 1$ ($m = 5$ when considering the in-room loclization project in this thesis). Each iBeacon $i$ provides an RSSI reading $r_i$, which can be determing by the iBeacon id $i$ in data collection phase. For such estimation process, the observation vector of RSSI from each iBeacon can be given as 
 
+\begin{equation}
+X = [r_2, r_3, ..., r_{m + 1}]
+\end{equation}
+
+Assuming that the actual location of the smart phone is give as $\theta_1 = [x_1, y_1]$, then objetive here is to estimate the location of te smart phone $\hat{\theta}$. To do that, the best place to start is the radio propagation channel model we mentioned in previous sections. The path-loss model for BLE provides the relationship between RSSI reading and distance estimation as
+
+\begin{equation}
+f_{r_i/ \theta_1,\theta_i} \sim N(P_r, \sigma^2_{SF})
+\end{equation}
+
+where $P_r$ is the received power, which is equivalent to the RSSI reading in terms of dB. The measurement of $r_i$, $f_{r_i/ \theta_1,\theta_i}$ is log-normally distributed as mentioned in equation(4.1) as $P_r$(dB) = $P_0$(dB) - $10\alpha\log_{10} (d_{1,i})$, where $P_0$ is equivalent to the $L_p (d_0)$ term in equation(4.1). 
+
+With such radio propagation channel model, the CRLB of $\hat{\theta}_1$ is $cov(\hat{\theta}_1) \geq I(\theta_1)^{-1}$, where the $I(\theta_1)$ is the Fisher information matrix (FIM) given as 
+
+\begin{equation}
+I_{\theta_1, \theta_i} = -E\nabla_{\theta_1, \theta_i}(\nabla_{\theta_1, \theta_i} \ln l (X|\theta_1,\theta_i)) = 
+\begin{bmatrix}
+I_{xx} & I_{xy} \\
+I_{xy} & I_{yy}
+\end{bmatrix}
+(\textrm{2D situation})
+\end{equation}
+
+where $l(X|\theta_1,\theta_i)$ is the logarithm of the joint conditional probability density function:
+
+\begin{equation}
+l(X|\theta_1,\theta_i) = \sum^{m+1}_{i = 2} \log_{10} f_{r_i/ \theta_1,\theta_i}
+\end{equation}
+
+and the elements in FIM can be given as:
+
+\begin{equation}
+\begin{matrix}
+I_{xx} = -\sum^{m+1}_{i=2} E[\frac{\partial^2 \log_{10} f_{r_i/ \theta_1,\theta_i} }{\partial^2 x^2_1}] \\
+I_{xy} = -\sum^{m+1}_{i=2} E[\frac{\partial^2 \log_{10} f_{r_i/ \theta_1,\theta_i} }{\partial x_1 \partial y_1}] \\
+I_{yy} = -\sum^{m+1}_{i=2} E[\frac{\partial^2 \log_{10} f_{r_i/ \theta_1,\theta_i} }{\partial^2 y^2_1}] \\
+\end{matrix}
+\end{equation}
+
+Finally, the CRLB on the variance of RSS based location estimation can be given as
+
+%%%% figure is for next section
+\begin{figure}[htb]
+	\begin{center}
+		\begin{tabular}{c}
+			\scalebox{0.9}{\includegraphics[]{pictures/5_7.eps}}
+		\end{tabular}
+	\end{center}
+	\caption{Scenario II: Four iBeacons in the Middle and One at the Center.}
+	\label{fig: 5.7}
+\end{figure}
+
+
+
+\begin{equation}
+\sigma^2_1 = tr\{cov_\theta (\hat{x}_1, \hat{y}_1)\} = \textrm{var}_\theta (\hat{x}_1) +  \textrm{var}_\theta (\hat{y}_1) = tr(
+I(\theta_1)^{-1})
+\end{equation}
+
+The derivation of 2D CRLB can be expanded into 3D cases by adding a z-axsis and apply the similar mathematics, meaning that $\theta_1 = [x_1, y_1]$ should be changed into $\theta_1 = [x_1, y_1, z_1]$. Accordingly, the equation (4.6) should be re-written as 
+
+\begin{equation}
+I_{\theta_1, \theta_i} = -E\nabla_{\theta_1, \theta_i}(\nabla_{\theta_1, \theta_i} \ln l (X|\theta_1,\theta_i)) = 
+\begin{bmatrix}
+I_{xx} & I_{xy} & I_{xz} \\
+I_{xy} & I_{yy} & I_{yz} \\
+I_{xz} & I_{yz} & I_{zz}
+\end{bmatrix}
+(\textrm{3D situation})
+\end{equation}
+
+The calculation of $I_{zz}$ is similar to that of $I_{xz}$ and $I_{yz}$, so that the CRLB in 3D situation comes to
+
+%%%%%% figure is for next section
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
@@ -1011,15 +1100,19 @@ In the first scenario, we assume that there are five APs installed in a building
 	\label{fig: 5.6}
 \end{figure}
 
-\begin{figure}[htb]
-	\begin{center}
-		\begin{tabular}{c}
-			\scalebox{0.9}{\includegraphics[]{pictures/5_7.eps}}
-		\end{tabular}
-	\end{center}
-	\caption{Scenario II: Four iBeacons in the Middle and One at the Center.}
-	\label{fig: 5.7}
-\end{figure}
+
+\begin{equation}
+\sigma^2_1 = tr\{cov_\theta (\hat{x}_1, \hat{y}_1, \hat{z}_1)\} = \textrm{var}_\theta (\hat{x}_1) +  \textrm{var}_\theta (\hat{y}_1) + \textrm{var}_\theta (\hat{z}_1)= tr(
+I(\theta_1)^{-1})
+\end{equation}
+
+In this section, we use CRLB as an evaluation metric for the performance of iBeacon based in-room localization system.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Performance Evaluation Regarding Deployment Patterns.}
+As we discussed before, there are 3 scenarios we analyze and compare inorder to evaluate the feasibility and effectiveness. From the Matlab we have such conclusions. The simulation conditions for location error analysis are as follows:
 
 \begin{figure}[htb]
 	\begin{center}
@@ -1031,12 +1124,9 @@ In the first scenario, we assume that there are five APs installed in a building
 	\label{fig: 5.8}
 \end{figure}
 
-Then we move the four iBeacons from four corners to the middle area of the room to reach the second scenario shown in Fig~\ref{fig: 5.7} and also make such type figure. When we come to the last scenario shown in Fig~\ref{fig: 5.8}, we just do a rotation of 90 degrees with the four iBeacons in the middle and reach the result. 
+Pr(0) = 160W = 52dBm, and  α = 2.4583 which is the mean of the  α  values of real path-loss model derived in part II (shown in Table-1).
 
-\subsection{CRLB for Performance Evaluation in 3D}
-In estimation theory and statistics, the Cramer-Rao Lower Bound (CRLB) expresses a lower bound on the variance of estimators of a deterministic parameter [40][41]. In its simplest form, the bound states that the variance of any unbiased estimator is at least as high as the inverse of the Fisher informa- tion [41]. Since the CRLB develops the lowest possible root-mean-square (RMS) error among all unbiased methods, it has been soon applied to navigation and geolocation science and technology [42][43]. CRLB has been discovered to be able to estimating the max possible performance of certain localization system or evaluating the potential improvement of specific localization algorithm. Both aspects help avoiding unnecessary implementation of the actual localization approach [44].
-
-In this section, we use CRLB as an evaluation metric for the performance of iBeacon based in-room localization system. Since the nursery room is a cube in reality, we extend the formula and simulation conditions from 2D to 3D. Z axis is introduced into the original x × y plane and we also move the fifth iBeacon from the middle of ground up to the middle of the roof. Due to plotting of a 4D figure is impossible, we give the figure in a particular height. Fig~\ref{fig: 5.9} shows the contour of estimate location error in 3D with one-meter detection height.
+In the first scenario, we assume that there are five APs installed in a building with their coordinates being AP 1 (15m, 15m), AP 2 (15m, -15m), AP 3 (-15m, -15m), AP 4 (-15m, 15m), and AP 5 (0.1m, 0.1m). If an MS at a given location receives signals from these APs, its position can be determined by triangulation or least square estimation. The simulation result is shown in Fig~\ref{fig: 5.6}.
 
 \begin{figure}[htb]
 	\begin{center}
@@ -1047,6 +1137,12 @@ In this section, we use CRLB as an evaluation metric for the performance of iBea
 	\caption{Contour of Estimate Location Error in 3D When the Detection Height is One Meter.}
 	\label{fig: 5.9}
 \end{figure}
+
+
+Then we move the four iBeacons from four corners to the middle area of the room to reach the second scenario shown in Fig~\ref{fig: 5.7} and also make such type figure. When we come to the last scenario shown in Fig~\ref{fig: 5.8}, we just do a rotation of 90 degrees with the four iBeacons in the middle and reach the result. 
+
+Since the nursery room is a cube in reality, we extend the formula and simulation conditions from 2D to 3D. Z axis is introduced into the original x × y plane and we also move the fifth iBeacon from the middle of ground up to the middle of the roof. Due to plotting of a 4D figure is impossible, we give the figure in a particular height. Fig~\ref{fig: 5.9} shows the contour of estimate location error in 3D with one-meter detection height.
+
 
 \section{Results and Discussion}
 In this section, we compare the CDF of the error in three different deployment patterns to present the results of our in-room deployments. Later on, we also observe the influence of number of iBeacon by simulations in the same conditions to show the most efficient deployment method.

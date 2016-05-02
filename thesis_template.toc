@@ -22,14 +22,14 @@
 \contentsline {section}{\numberline {4.2}Path-loss Modeling of iBeacon}{39}
 \contentsline {subsection}{\numberline {4.2.1}Modeling and Validation}{39}
 \contentsline {subsection}{\numberline {4.2.2}Overall Path-loss Modeling Results}{42}
-\contentsline {section}{\numberline {4.3}Scenarios of In-Room Localization}{42}
-\contentsline {section}{\numberline {4.4}Performance Evaluation}{45}
+\contentsline {section}{\numberline {4.3}Scenarios of In-Room Localization}{43}
+\contentsline {section}{\numberline {4.4}Performance Evaluation}{44}
 \contentsline {subsection}{\numberline {4.4.1}Evaluation Scenario}{45}
-\contentsline {subsection}{\numberline {4.4.2}Localization Error Estimation of Deployment Patterns.}{46}
-\contentsline {subsection}{\numberline {4.4.3}CRLB for Performance Evaluation in 3D}{47}
-\contentsline {section}{\numberline {4.5}Results and Discussion}{49}
-\contentsline {subsection}{\numberline {4.5.1}Effect of Different Deployment Patterns.}{50}
-\contentsline {subsection}{\numberline {4.5.2}Effect of Different Number of iBeacons}{51}
-\contentsline {chapter}{\numberline {5}Conclusion}{56}
-\contentsline {chapter}{\numberline {A}More to say}{57}
-\contentsline {section}{\numberline {A.1}A section within an appendix.}{57}
+\contentsline {subsection}{\numberline {4.4.2}Evaluation Metric and CRLB Derivation}{47}
+\contentsline {subsection}{\numberline {4.4.3}Performance Evaluation Regarding Deployment Patterns.}{50}
+\contentsline {section}{\numberline {4.5}Results and Discussion}{52}
+\contentsline {subsection}{\numberline {4.5.1}Effect of Different Deployment Patterns.}{53}
+\contentsline {subsection}{\numberline {4.5.2}Effect of Different Number of iBeacons}{54}
+\contentsline {chapter}{\numberline {5}Conclusion}{58}
+\contentsline {chapter}{\numberline {A}More to say}{59}
+\contentsline {section}{\numberline {A.1}A section within an appendix.}{59}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.6)  30 APR 2016 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 MAY 2016 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -116,38 +116,148 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip51
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./thesis_template.aux
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen107
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count102
+\mult@box=\box28
+\multicol@leftmargin=\dimen108
+\c@unbalance=\count103
+\c@collectmore=\count104
+\doublecol@number=\count105
+\multicoltolerance=\count106
+\multicolpretolerance=\count107
+\full@width=\dimen109
+\page@free=\dimen110
+\premulticols=\dimen111
+\postmulticols=\dimen112
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen113
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count108
+\c@finalcolumnbadness=\count109
+\last@try=\dimen114
+\multicolovershoot=\dimen115
+\multicolundershoot=\dimen116
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count110
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen117
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen118
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count111
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count112
+\leftroot@=\count113
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count114
+\DOTSCASE@=\count115
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen119
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
+\dotsspace@=\muskip10
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks19
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks20
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks21
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(./thesis_template.aux
 
 LaTeX Warning: Label `fig: 3.4' multiply defined.
 
 )
 \openout1 = `thesis_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen107
-\scratchbox=\box28
-\nofMPsegments=\count103
-\nofMParguments=\count104
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen108
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count123
+\scratchdimen=\dimen126
+\scratchbox=\box56
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen127
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -203,14 +313,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-[1] [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 203.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 203.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 203.
- [1] (./thesis_template.toc [2
+[1] [2] [1] (./thesis_template.toc [2
 
 
 ])
@@ -233,31 +336,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Chapter 1.
 
-LaTeX Warning: Citation `Mar14' on page 1 undefined on input line 267.
+LaTeX Warning: Citation `Mar14' on page 1 undefined on input line 270.
 
 
-LaTeX Warning: Citation `Gen15' on page 1 undefined on input line 267.
+LaTeX Warning: Citation `Gen15' on page 1 undefined on input line 270.
 
 
-LaTeX Warning: Citation `Cor15' on page 1 undefined on input line 267.
+LaTeX Warning: Citation `Cor15' on page 1 undefined on input line 270.
 
 
-LaTeX Warning: Citation `Bas14' on page 1 undefined on input line 267.
+LaTeX Warning: Citation `Bas14' on page 1 undefined on input line 270.
 
 
-LaTeX Warning: Citation `Kim14' on page 1 undefined on input line 267.
+LaTeX Warning: Citation `Kim14' on page 1 undefined on input line 270.
 
 [1
 
 
 ] [2] [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 287.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 290.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 287.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 290.
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
 
@@ -267,32 +370,32 @@ Chapter 2.
 
 ]
 Package epstopdf Info: Source file: <pictures/3_2.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 339977 bytes
 (epstopdf)             Output file: <pictures/3_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 19233 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_2-eps-converted
 -to.pdf pictures/3_2.eps>
-(epstopdf)             \includegraphics on input line 339.
+(epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
  <pictures/3_2-eps-converted-to.pdf, id=54, 259.97125pt x 194.7275pt>
 File: pictures/3_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_2-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_2-eps-converted-to.pdf used on input line 3
-39.
+42.
 (pdftex.def)             Requested size: 259.97061pt x 194.727pt.
  [7]
 Package epstopdf Info: Source file: <pictures/3_3.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 216768 bytes
 (epstopdf)             Output file: <pictures/3_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 11675 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_3-eps-converted
 -to.pdf pictures/3_3.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 356.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_3-eps-converted-to.pdf, id=58, 264.99pt x 182.6825pt>
@@ -300,7 +403,7 @@ File: pictures/3_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_3-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_3-eps-converted-to.pdf used on input line 3
-53.
+56.
 (pdftex.def)             Requested size: 264.98935pt x 182.68204pt.
  [8 <./pictures/3_2-eps-converted-to.pdf>] [9 <./pictures/3_3-eps-converted-to.
 pdf>]
@@ -347,14 +450,14 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
  [12]
 Package epstopdf Info: Source file: <pictures/3_4a.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 319682 bytes
 (epstopdf)             Output file: <pictures/3_4a-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 55547 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_4a-eps-converte
 d-to.pdf pictures/3_4a.eps>
-(epstopdf)             \includegraphics on input line 415.
+(epstopdf)             \includegraphics on input line 418.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_4a-eps-converted-to.pdf, id=85, 173.64874pt x 308.15125pt>
@@ -362,17 +465,17 @@ File: pictures/3_4a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_4a-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_4a-eps-converted-to.pdf used on input line 
-415.
+418.
 (pdftex.def)             Requested size: 149.23999pt x 264.84503pt.
 Package epstopdf Info: Source file: <pictures/3_4b.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 361925 bytes
 (epstopdf)             Output file: <pictures/3_4b-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 42183 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_4b-eps-converte
 d-to.pdf pictures/3_4b.eps>
-(epstopdf)             \includegraphics on input line 420.
+(epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_4b-eps-converted-to.pdf, id=86, 177.66376pt x 306.14375pt>
@@ -380,17 +483,17 @@ File: pictures/3_4b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_4b-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_4b-eps-converted-to.pdf used on input line 
-420.
+423.
 (pdftex.def)             Requested size: 149.23999pt x 257.173pt.
 Package epstopdf Info: Source file: <pictures/3_4c.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 274970 bytes
 (epstopdf)             Output file: <pictures/3_4c-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 42204 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_4c-eps-converte
 d-to.pdf pictures/3_4c.eps>
-(epstopdf)             \includegraphics on input line 426.
+(epstopdf)             \includegraphics on input line 429.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_4c-eps-converted-to.pdf, id=87, 182.6825pt x 288.07625pt>
@@ -398,17 +501,17 @@ File: pictures/3_4c-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_4c-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_4c-eps-converted-to.pdf used on input line 
-426.
+429.
 (pdftex.def)             Requested size: 149.23999pt x 235.3493pt.
 Package epstopdf Info: Source file: <pictures/3_4d.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 369220 bytes
 (epstopdf)             Output file: <pictures/3_4d-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 74576 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_4d-eps-converte
 d-to.pdf pictures/3_4d.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_4d-eps-converted-to.pdf, id=88, 181.67876pt x 314.17375pt>
@@ -416,17 +519,17 @@ File: pictures/3_4d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_4d-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_4d-eps-converted-to.pdf used on input line 
-431.
+434.
 (pdftex.def)             Requested size: 149.23999pt x 258.08435pt.
 Package epstopdf Info: Source file: <pictures/3_5.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 858141 bytes
 (epstopdf)             Output file: <pictures/3_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 294025 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_5-eps-converted
 -to.pdf pictures/3_5.eps>
-(epstopdf)             \includegraphics on input line 446.
+(epstopdf)             \includegraphics on input line 449.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_5-eps-converted-to.pdf, id=89, 450.68375pt x 291.0875pt>
@@ -434,7 +537,7 @@ File: pictures/3_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_5-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_5-eps-converted-to.pdf used on input line 4
-46.
+49.
 (pdftex.def)             Requested size: 450.68263pt x 291.08678pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ñ in font cmr12!
@@ -447,14 +550,14 @@ LaTeX Warning: Text page 14 contains only floats.
 f> <./pictures/3_4c-eps-converted-to.pdf> <./pictures/3_4d-eps-converted-to.pdf
 >] [15 <./pictures/3_5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/3_6.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 294649 bytes
 (epstopdf)             Output file: <pictures/3_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 54721 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_6-eps-converted
 -to.pdf pictures/3_6.eps>
-(epstopdf)             \includegraphics on input line 460.
+(epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_6-eps-converted-to.pdf, id=125, 164.615pt x 293.095pt>
@@ -462,17 +565,17 @@ File: pictures/3_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_6-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_6-eps-converted-to.pdf used on input line 4
-60.
+63.
 (pdftex.def)             Requested size: 164.6146pt x 293.09427pt.
 Package epstopdf Info: Source file: <pictures/3_7.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 359695 bytes
 (epstopdf)             Output file: <pictures/3_7-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 113041 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_7-eps-converted
 -to.pdf pictures/3_7.eps>
-(epstopdf)             \includegraphics on input line 470.
+(epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_7-eps-converted-to.pdf, id=126, 155.58125pt x 292.09125pt>
@@ -480,17 +583,17 @@ File: pictures/3_7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_7-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_7-eps-converted-to.pdf used on input line 4
-70.
+73.
 (pdftex.def)             Requested size: 155.58086pt x 292.09052pt.
 Package epstopdf Info: Source file: <pictures/3_8.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 644398 bytes
 (epstopdf)             Output file: <pictures/3_8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 292361 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_8-eps-converted
 -to.pdf pictures/3_8.eps>
-(epstopdf)             \includegraphics on input line 480.
+(epstopdf)             \includegraphics on input line 483.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_8-eps-converted-to.pdf, id=127, 432.61626pt x 269.005pt>
@@ -498,7 +601,7 @@ File: pictures/3_8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_8-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_8-eps-converted-to.pdf used on input line 4
-80.
+83.
 (pdftex.def)             Requested size: 432.6152pt x 269.00433pt.
  [16 <./pictures/3_6-eps-converted-to.pdf>] [17 <./pictures/3_7-eps-converted-t
 o.pdf>] [18 <./pictures/3_8-eps-converted-to.pdf>]
@@ -507,31 +610,31 @@ Chapter 3.
 
 ] [20]
 Package epstopdf Info: Source file: <pictures/3_9a.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 803427 bytes
 (epstopdf)             Output file: <pictures/3_9a-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 96771 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_9a-eps-converte
 d-to.pdf pictures/3_9a.eps>
-(epstopdf)             \includegraphics on input line 577.
+(epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
  <pictures/3_9a-eps-converted-to.pdf, id=159, 216.81pt x 360.34625pt>
 File: pictures/3_9a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_9a-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_9a-eps-converted-to.pdf used on input line 
-577.
+580.
 (pdftex.def)             Requested size: 106.59813pt x 177.17053pt.
 Package epstopdf Info: Source file: <pictures/3_9b.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 547691 bytes
 (epstopdf)             Output file: <pictures/3_9b-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 139136 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_9b-eps-converte
 d-to.pdf pictures/3_9b.eps>
-(epstopdf)             \includegraphics on input line 582.
+(epstopdf)             \includegraphics on input line 585.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_9b-eps-converted-to.pdf, id=160, 217.81375pt x 361.35pt>
@@ -539,17 +642,17 @@ File: pictures/3_9b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_9b-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_9b-eps-converted-to.pdf used on input line 
-582.
+585.
 (pdftex.def)             Requested size: 106.59813pt x 176.8425pt.
 Package epstopdf Info: Source file: <pictures/3_9c.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 500247 bytes
 (epstopdf)             Output file: <pictures/3_9c-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 109505 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_9c-eps-converte
 d-to.pdf pictures/3_9c.eps>
-(epstopdf)             \includegraphics on input line 587.
+(epstopdf)             \includegraphics on input line 590.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_9c-eps-converted-to.pdf, id=161, 217.81375pt x 361.35pt>
@@ -557,7 +660,7 @@ File: pictures/3_9c-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_9c-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_9c-eps-converted-to.pdf used on input line 
-587.
+590.
 (pdftex.def)             Requested size: 106.59813pt x 176.8425pt.
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
@@ -571,32 +674,32 @@ Missing character: There is no Ç in font cmr12!
  [21 <./pictures/3_9a-eps-converted-to.pdf> <./pictures/3_9b-eps-converted-to.p
 df> <./pictures/3_9c-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/3_10.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 501447 bytes
 (epstopdf)             Output file: <pictures/3_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 94399 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_10-eps-converte
 d-to.pdf pictures/3_10.eps>
-(epstopdf)             \includegraphics on input line 604.
+(epstopdf)             \includegraphics on input line 607.
 Package epstopdf Info: Output file is already uptodate.
  <pictures/3_10-eps-converted-to.pdf, id=187, 282.05376pt x 473.77pt>
 File: pictures/3_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_10-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_10-eps-converted-to.pdf used on input line 
-604.
+607.
 (pdftex.def)             Requested size: 282.05305pt x 473.76884pt.
  [22]
 Package epstopdf Info: Source file: <pictures/3_11.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1540355 bytes
 (epstopdf)             Output file: <pictures/3_11-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 321610 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_11-eps-converte
 d-to.pdf pictures/3_11.eps>
-(epstopdf)             \includegraphics on input line 623.
+(epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
 <pictures/3_11-eps-converted-to.pdf, id=193, 407.5225pt x 365.365pt>
@@ -604,121 +707,121 @@ File: pictures/3_11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_11-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_11-eps-converted-to.pdf used on input line 
-623.
+626.
 (pdftex.def)             Requested size: 407.5215pt x 365.3641pt.
  [23 <./pictures/3_10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/34.eps>
-(epstopdf)                    date: 2016-04-30 12:04:40
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 484763 bytes
 (epstopdf)             Output file: <pictures/34-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 12:09:26
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 199634 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/34-eps-converted-
 to.pdf pictures/34.eps>
-(epstopdf)             \includegraphics on input line 713.
+(epstopdf)             \includegraphics on input line 716.
 Package epstopdf Info: Output file is already uptodate.
  <pictures/34-eps-converted-to.pdf, id=204, 363.3575pt x 429.605pt>
 File: pictures/34-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/34-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/34-eps-converted-to.pdf used on input line 71
-3.
+6.
 (pdftex.def)             Requested size: 363.3566pt x 429.60394pt.
  [24 <./pictures/3_11-eps-converted-to.pdf>] [25] [26]
 Package epstopdf Info: Source file: <pictures/3_12.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 409337 bytes
 (epstopdf)             Output file: <pictures/3_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 129852 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_12-eps-converte
 d-to.pdf pictures/3_12.eps>
-(epstopdf)             \includegraphics on input line 731.
+(epstopdf)             \includegraphics on input line 734.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/3_12-eps-converted-to.pdf, id=222, 501.875pt x 215.80624pt>
+<pictures/3_12-eps-converted-to.pdf, id=223, 501.875pt x 215.80624pt>
 File: pictures/3_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_12-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_12-eps-converted-to.pdf used on input line 
-731.
+734.
 (pdftex.def)             Requested size: 501.87376pt x 215.80571pt.
  [27 <./pictures/34-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/3_13.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 377358 bytes
 (epstopdf)             Output file: <pictures/3_13-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 119778 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_13-eps-converte
 d-to.pdf pictures/3_13.eps>
-(epstopdf)             \includegraphics on input line 747.
+(epstopdf)             \includegraphics on input line 750.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/3_13-eps-converted-to.pdf, id=231, 574.145pt x 475.7775pt>
+ <pictures/3_13-eps-converted-to.pdf, id=232, 574.145pt x 475.7775pt>
 File: pictures/3_13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_13-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_13-eps-converted-to.pdf used on input line 
-747.
+750.
 (pdftex.def)             Requested size: 574.1436pt x 475.77632pt.
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ç in font cmr12!
  [28 <./pictures/3_12-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/3_14.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 374075 bytes
 (epstopdf)             Output file: <pictures/3_14-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 115129 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_14-eps-converte
 d-to.pdf pictures/3_14.eps>
-(epstopdf)             \includegraphics on input line 759.
+(epstopdf)             \includegraphics on input line 762.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/3_14-eps-converted-to.pdf, id=241, 529.98pt x 455.7025pt>
+ <pictures/3_14-eps-converted-to.pdf, id=242, 529.98pt x 455.7025pt>
 File: pictures/3_14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_14-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_14-eps-converted-to.pdf used on input line 
-759.
+762.
 (pdftex.def)             Requested size: 529.97868pt x 455.70137pt.
  [29 <./pictures/3_13-eps-converted-to.pdf>] [30 <./pictures/3_14-eps-converted
 -to.pdf>]
 Package epstopdf Info: Source file: <pictures/3_15.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1953687 bytes
 (epstopdf)             Output file: <pictures/3_15-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 33944 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_15-eps-converte
 d-to.pdf pictures/3_15.eps>
-(epstopdf)             \includegraphics on input line 771.
+(epstopdf)             \includegraphics on input line 774.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/3_15-eps-converted-to.pdf, id=258, 492.84125pt x 432.61626pt>
+<pictures/3_15-eps-converted-to.pdf, id=259, 492.84125pt x 432.61626pt>
 File: pictures/3_15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_15-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_15-eps-converted-to.pdf used on input line 
-771.
+774.
 (pdftex.def)             Requested size: 492.84003pt x 432.6152pt.
 Package epstopdf Info: Source file: <pictures/3_16.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 2103981 bytes
 (epstopdf)             Output file: <pictures/3_16-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 23657 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/3_16-eps-converte
 d-to.pdf pictures/3_16.eps>
-(epstopdf)             \includegraphics on input line 781.
+(epstopdf)             \includegraphics on input line 784.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/3_16-eps-converted-to.pdf, id=259, 494.84875pt x 432.61626pt>
+<pictures/3_16-eps-converted-to.pdf, id=260, 494.84875pt x 432.61626pt>
 File: pictures/3_16-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/3_16-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/3_16-eps-converted-to.pdf used on input line 
-781.
+784.
 (pdftex.def)             Requested size: 494.84755pt x 432.6152pt.
  [31 <./pictures/3_15-eps-converted-to.pdf>] [32 <./pictures/3_16-eps-converted
 -to.pdf>] [33]
@@ -739,296 +842,287 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
  [37] [38] [39]
 Package epstopdf Info: Source file: <pictures/4_1.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 480637 bytes
 (epstopdf)             Output file: <pictures/4_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 106226 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_1-eps-converted
 -to.pdf pictures/4_1.eps>
-(epstopdf)             \includegraphics on input line 871.
+(epstopdf)             \includegraphics on input line 874.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/4_1-eps-converted-to.pdf, id=308, 358.33875pt x 270.00874pt>
+<pictures/4_1-eps-converted-to.pdf, id=309, 358.33875pt x 270.00874pt>
 File: pictures/4_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_1-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_1-eps-converted-to.pdf used on input line 8
-71.
+74.
 (pdftex.def)             Requested size: 358.33788pt x 270.00807pt.
  [40 <./pictures/4_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/4_2.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 507324 bytes
 (epstopdf)             Output file: <pictures/4_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 107928 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_2-eps-converted
 -to.pdf pictures/4_2.eps>
-(epstopdf)             \includegraphics on input line 896.
+(epstopdf)             \includegraphics on input line 903.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/4_2-eps-converted-to.pdf, id=318, 360.34625pt x 269.005pt>
+ <pictures/4_2-eps-converted-to.pdf, id=319, 360.34625pt x 269.005pt>
 File: pictures/4_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_2-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/4_2-eps-converted-to.pdf used on input line 8
-96.
+Package pdftex.def Info: pictures/4_2-eps-converted-to.pdf used on input line 9
+03.
 (pdftex.def)             Requested size: 360.34537pt x 269.00433pt.
- [41 <./pictures/4_2-eps-converted-to.pdf>]
 Missing character: There is no œ in font cmr12!
 Missing character: There is no É in font cmr12!
+ [41]
 Missing character: There is no œ in font cmr12!
 Missing character: There is no É in font cmr12!
- [42]
+ [42 <./pictures/4_2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/4_3.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 372902 bytes
 (epstopdf)             Output file: <pictures/4_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 45431 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_3-eps-converted
 -to.pdf pictures/4_3.eps>
-(epstopdf)             \includegraphics on input line 958.
+(epstopdf)             \includegraphics on input line 969.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/4_3-eps-converted-to.pdf, id=333, 236.885pt x 194.7275pt>
+ <pictures/4_3-eps-converted-to.pdf, id=335, 236.885pt x 194.7275pt>
 File: pictures/4_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_3-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_3-eps-converted-to.pdf used on input line 9
-58.
+69.
 (pdftex.def)             Requested size: 236.88441pt x 194.727pt.
- [43 <./pictures/4_3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/4_4.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 641729 bytes
 (epstopdf)             Output file: <pictures/4_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 100786 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_4-eps-converted
 -to.pdf pictures/4_4.eps>
-(epstopdf)             \includegraphics on input line 970.
+(epstopdf)             \includegraphics on input line 981.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/4_4-eps-converted-to.pdf, id=342, 236.885pt x 194.7275pt>
+
+<pictures/4_4-eps-converted-to.pdf, id=336, 236.885pt x 194.7275pt>
 File: pictures/4_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_4-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_4-eps-converted-to.pdf used on input line 9
-70.
+81.
 (pdftex.def)             Requested size: 236.88441pt x 194.727pt.
- [44 <./pictures/4_4-eps-converted-to.pdf>]
+ [43] [44 <./pictures/4_3-eps-converted-to.pdf>]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
 Package epstopdf Info: Source file: <pictures/5_5.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1243521 bytes
 (epstopdf)             Output file: <pictures/5_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 302409 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/5_5-eps-converted
 -to.pdf pictures/5_5.eps>
-(epstopdf)             \includegraphics on input line 988.
+(epstopdf)             \includegraphics on input line 1002.
 Package epstopdf Info: Output file is already uptodate.
- <pictures/5_5-eps-converted-to.pdf, id=351, 846.16125pt x 598.235pt>
+ <pictures/5_5-eps-converted-to.pdf, id=348, 846.16125pt x 598.235pt>
 File: pictures/5_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/5_5-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/5_5-eps-converted-to.pdf used on input line 9
-88.
+Package pdftex.def Info: pictures/5_5-eps-converted-to.pdf used on input line 1
+002.
 (pdftex.def)             Requested size: 846.1592pt x 598.23354pt.
 
-Overfull \hbox (8.68704pt too wide) in paragraph at lines 987--990
+Overfull \hbox (8.68704pt too wide) in paragraph at lines 1001--1004
  [] 
  []
 
-[45]
-Overfull \hbox (5.41196pt too wide) in paragraph at lines 997--997
-[]\OT1/cmr/bx/n/14.4 Localization Er-ror Es-ti-ma-tion of De-ploy-ment Pat-tern
-s. 
- []
-
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ± in font cmr12!
-Missing character: There is no Œ in font cmr12!
-Missing character: There is no ± in font cmr12!
-[46 <./pictures/5_5-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <pictures/5_6.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
-(epstopdf)                    size: 1418908 bytes
-(epstopdf)             Output file: <pictures/5_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
-(epstopdf)                    size: 360072 bytes
-(epstopdf)             Command: <repstopdf --outfile=pictures/5_6-eps-converted
--to.pdf pictures/5_6.eps>
-(epstopdf)             \includegraphics on input line 1007.
-Package epstopdf Info: Output file is already uptodate.
-
-<pictures/5_6-eps-converted-to.pdf, id=366, 417.56pt x 321.2pt>
-File: pictures/5_6-eps-converted-to.pdf Graphic file (type pdf)
-
-<use pictures/5_6-eps-converted-to.pdf>
-Package pdftex.def Info: pictures/5_6-eps-converted-to.pdf used on input line 1
-007.
-(pdftex.def)             Requested size: 417.55896pt x 321.19922pt.
+[45 <./pictures/4_4-eps-converted-to.pdf>] [46 <./pictures/5_5-eps-converted-to
+.pdf>] [47]
 Package epstopdf Info: Source file: <pictures/5_7.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1284057 bytes
 (epstopdf)             Output file: <pictures/5_7-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 304876 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/5_7-eps-converted
 -to.pdf pictures/5_7.eps>
-(epstopdf)             \includegraphics on input line 1017.
+(epstopdf)             \includegraphics on input line 1064.
 Package epstopdf Info: Output file is already uptodate.
-
-<pictures/5_7-eps-converted-to.pdf, id=367, 417.56pt x 321.2pt>
+ <pictures/5_7-eps-converted-to.pdf, id=372, 417.56pt x 321.2pt>
 File: pictures/5_7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/5_7-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/5_7-eps-converted-to.pdf used on input line 1
-017.
+064.
 (pdftex.def)             Requested size: 417.55896pt x 321.19922pt.
+ [48]
+Package epstopdf Info: Source file: <pictures/5_6.eps>
+(epstopdf)                    date: 2016-05-01 15:51:05
+(epstopdf)                    size: 1418908 bytes
+(epstopdf)             Output file: <pictures/5_6-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-05-01 15:51:05
+(epstopdf)                    size: 360072 bytes
+(epstopdf)             Command: <repstopdf --outfile=pictures/5_6-eps-converted
+-to.pdf pictures/5_6.eps>
+(epstopdf)             \includegraphics on input line 1096.
+Package epstopdf Info: Output file is already uptodate.
+
+<pictures/5_6-eps-converted-to.pdf, id=378, 417.56pt x 321.2pt>
+File: pictures/5_6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use pictures/5_6-eps-converted-to.pdf>
+Package pdftex.def Info: pictures/5_6-eps-converted-to.pdf used on input line 1
+096.
+(pdftex.def)             Requested size: 417.55896pt x 321.19922pt.
+ [49 <./pictures/5_7-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/5_8.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1458120 bytes
 (epstopdf)             Output file: <pictures/5_8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 410730 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/5_8-eps-converted
 -to.pdf pictures/5_8.eps>
-(epstopdf)             \includegraphics on input line 1027.
+(epstopdf)             \includegraphics on input line 1120.
 Package epstopdf Info: Output file is already uptodate.
-
-<pictures/5_8-eps-converted-to.pdf, id=368, 417.56pt x 321.2pt>
+ <pictures/5_8-eps-converted-to.pdf, id=387, 417.56pt x 321.2pt>
 File: pictures/5_8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/5_8-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/5_8-eps-converted-to.pdf used on input line 1
-027.
+120.
 (pdftex.def)             Requested size: 417.55896pt x 321.19922pt.
- [47 <./pictures/5_6-eps-converted-to.pdf>]
-Missing character: There is no √ in font cmr12!
-Missing character: There is no ó in font cmr12!
- [48 <./pictures/5_7-eps-converted-to.pdf>]
+ [50 <./pictures/5_6-eps-converted-to.pdf>]
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no Œ in font cmr12!
+Missing character: There is no ± in font cmr12!
 Package epstopdf Info: Source file: <pictures/5_9.eps>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 993071 bytes
 (epstopdf)             Output file: <pictures/5_9-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 03:40:04
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 261646 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/5_9-eps-converted
 -to.pdf pictures/5_9.eps>
-(epstopdf)             \includegraphics on input line 1044.
+(epstopdf)             \includegraphics on input line 1134.
 Package epstopdf Info: Output file is already uptodate.
-
-<pictures/5_9-eps-converted-to.pdf, id=386, 381.425pt x 266.9975pt>
+ <pictures/5_9-eps-converted-to.pdf, id=396, 381.425pt x 266.9975pt>
 File: pictures/5_9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/5_9-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/5_9-eps-converted-to.pdf used on input line 1
-044.
+134.
 (pdftex.def)             Requested size: 381.42406pt x 266.99683pt.
+ [51 <./pictures/5_8-eps-converted-to.pdf>]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ó in font cmr12!
 Package epstopdf Info: Source file: <pictures/4_10.eps>
-(epstopdf)                    date: 2016-04-30 11:47:58
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 815354 bytes
 (epstopdf)             Output file: <pictures/4_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 11:55:07
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 195691 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_10-eps-converte
 d-to.pdf pictures/4_10.eps>
-(epstopdf)             \includegraphics on input line 1057.
+(epstopdf)             \includegraphics on input line 1153.
 Package epstopdf Info: Output file is already uptodate.
-
-<pictures/4_10-eps-converted-to.pdf, id=387, 366.36874pt x 266.9975pt>
+ <pictures/4_10-eps-converted-to.pdf, id=405, 366.36874pt x 266.9975pt>
 File: pictures/4_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_10-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_10-eps-converted-to.pdf used on input line 
-1057.
+1153.
 (pdftex.def)             Requested size: 366.36784pt x 266.99683pt.
+ [52 <./pictures/5_9-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/4_11.eps>
-(epstopdf)                    date: 2016-04-30 11:48:44
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1182413 bytes
 (epstopdf)             Output file: <pictures/4_11-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 11:55:08
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 313507 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_11-eps-converte
 d-to.pdf pictures/4_11.eps>
-(epstopdf)             \includegraphics on input line 1067.
+(epstopdf)             \includegraphics on input line 1163.
 Package epstopdf Info: Output file is already uptodate.
-
-<pictures/4_11-eps-converted-to.pdf, id=388, 366.36874pt x 266.9975pt>
+ <pictures/4_11-eps-converted-to.pdf, id=415, 366.36874pt x 266.9975pt>
 File: pictures/4_11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_11-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_11-eps-converted-to.pdf used on input line 
-1067.
+1163.
 (pdftex.def)             Requested size: 366.36784pt x 266.99683pt.
 Package epstopdf Info: Source file: <pictures/4_12.eps>
-(epstopdf)                    date: 2016-04-30 11:50:08
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1166613 bytes
 (epstopdf)             Output file: <pictures/4_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 11:55:08
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 277084 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_12-eps-converte
 d-to.pdf pictures/4_12.eps>
-(epstopdf)             \includegraphics on input line 1077.
+(epstopdf)             \includegraphics on input line 1173.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/4_12-eps-converted-to.pdf, id=389, 417.56pt x 303.1325pt>
+<pictures/4_12-eps-converted-to.pdf, id=416, 417.56pt x 303.1325pt>
 File: pictures/4_12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_12-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_12-eps-converted-to.pdf used on input line 
-1077.
+1173.
 (pdftex.def)             Requested size: 417.55896pt x 303.13176pt.
 Package epstopdf Info: Source file: <pictures/4_13.eps>
-(epstopdf)                    date: 2016-04-30 11:50:54
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 1270646 bytes
 (epstopdf)             Output file: <pictures/4_13-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 11:55:09
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 299599 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_13-eps-converte
 d-to.pdf pictures/4_13.eps>
-(epstopdf)             \includegraphics on input line 1087.
+(epstopdf)             \includegraphics on input line 1183.
 Package epstopdf Info: Output file is already uptodate.
 
-<pictures/4_13-eps-converted-to.pdf, id=390, 417.56pt x 303.1325pt>
+<pictures/4_13-eps-converted-to.pdf, id=417, 417.56pt x 303.1325pt>
 File: pictures/4_13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_13-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_13-eps-converted-to.pdf used on input line 
-1087.
+1183.
 (pdftex.def)             Requested size: 417.55896pt x 303.13176pt.
- [49 <./pictures/5_8-eps-converted-to.pdf>] [50 <./pictures/5_9-eps-converted-t
-o.pdf>]
+ [53 <./pictures/4_10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pictures/4_14.eps>
-(epstopdf)                    date: 2016-04-30 11:52:44
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 919149 bytes
 (epstopdf)             Output file: <pictures/4_14-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-30 11:55:09
+(epstopdf)                    date: 2016-05-01 15:51:05
 (epstopdf)                    size: 225644 bytes
 (epstopdf)             Command: <repstopdf --outfile=pictures/4_14-eps-converte
 d-to.pdf pictures/4_14.eps>
-(epstopdf)             \includegraphics on input line 1107.
+(epstopdf)             \includegraphics on input line 1203.
 Package epstopdf Info: Output file is already uptodate.
-
-<pictures/4_14-eps-converted-to.pdf, id=407, 399.4925pt x 303.1325pt>
+ <pictures/4_14-eps-converted-to.pdf, id=426, 399.4925pt x 303.1325pt>
 File: pictures/4_14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pictures/4_14-eps-converted-to.pdf>
 Package pdftex.def Info: pictures/4_14-eps-converted-to.pdf used on input line 
-1107.
+1203.
 (pdftex.def)             Requested size: 399.49152pt x 303.13176pt.
- [51 <./pictures/4_10-eps-converted-to.pdf>] [52 <./pictures/4_11-eps-converted
--to.pdf>] [53 <./pictures/4_12-eps-converted-to.pdf>] [54 <./pictures/4_13-eps-
-converted-to.pdf>] [55 <./pictures/4_14-eps-converted-to.pdf>]
+ [54 <./pictures/4_11-eps-converted-to.pdf>] [55 <./pictures/4_12-eps-converted
+-to.pdf>] [56 <./pictures/4_13-eps-converted-to.pdf>] [57 <./pictures/4_14-eps-
+converted-to.pdf>]
 Chapter 5.
-[56
+[58
 
 ]
 Appendix A.
 No file thesis_template.bbl.
-[57
+[59
 
 ] (./thesis_template.aux)
 
@@ -1039,14 +1133,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2545 strings out of 493089
- 39689 string characters out of 6134843
- 98839 words of memory out of 5000000
- 5964 multiletter control sequences out of 15000+600000
- 8500 words of font info for 30 fonts, out of 8000000 for 9000
+ 3276 strings out of 493089
+ 48620 string characters out of 6134842
+ 113841 words of memory out of 5000000
+ 6667 multiletter control sequences out of 15000+600000
+ 9795 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,24p,1730b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,24p,1730b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
@@ -1055,11 +1152,12 @@ local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on thesis_template.pdf (66 pages, 5804421 bytes).
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis_template.pdf (68 pages, 5850646 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
+ 514 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

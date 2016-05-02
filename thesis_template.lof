@@ -26,18 +26,18 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Comparison of Single iBeacon Approach in Different Scenarios.}}{32}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Two Path-loss Models Comparison.}}{40}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of DME CDF.}}{41}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Main Scenario of In-Room Localization.}}{43}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Algorithm of In-Room Localization.}}{44}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of DME CDF.}}{42}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Main Scenario of In-Room Localization.}}{44}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Algorithm of In-Room Localization.}}{45}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Scenarios of In-Room Localization.}}{46}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Scenario I: Four iBeacons at the Corners and One at the Center.}}{47}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Scenario II: Four iBeacons in the Middle and One at the Center.}}{48}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Scenario III: Four iBeacons in the Middle with rotation and One at the Center.}}{49}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Contour of Estimate Location Error in 3D When the Detection Height is One Meter.}}{50}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF Comparison for Different Deployments.}}{51}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Contour of estimate location error of 3 iBeacons.}}{52}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Contour of estimate location error of 4 iBeacons.}}{53}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Contour of estimate location error of 5 iBeacons.}}{54}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF comparison for different number of iBeacons.}}{55}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Scenario II: Four iBeacons in the Middle and One at the Center.}}{49}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scenario I: Four iBeacons at the Corners and One at the Center.}}{50}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Scenario III: Four iBeacons in the Middle with rotation and One at the Center.}}{51}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Contour of Estimate Location Error in 3D When the Detection Height is One Meter.}}{52}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces CDF Comparison for Different Deployments.}}{53}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Contour of estimate location error of 3 iBeacons.}}{54}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Contour of estimate location error of 4 iBeacons.}}{55}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Contour of estimate location error of 5 iBeacons.}}{56}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces CDF comparison for different number of iBeacons.}}{57}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
