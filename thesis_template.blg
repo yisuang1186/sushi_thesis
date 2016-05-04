@@ -161,7 +161,7 @@ Name 1 in "Z. Li, Y. Yang, and K. Pahlavan" has a comma at the end for entry lzc
 while executing---line 1250 of file alpha.bst
 You've used 26 entries,
             2543 wiz_defined-function locations,
-            686 strings with 8608 characters,
+            686 strings with 8612 characters,
 and the built_in function-call counts, 8922 in all, are:
 = -- 888
 > -- 414
