@@ -1,0 +1,203 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis_template.aux
+The style file: alpha.bst
+Database file #1: foo.bib
+I was expecting a `,' or a `}'---line 111 of file foo.bib
+ :   
+ :   title ={A cyber physical test-bed for virtualization of RF access environment for body sensor network},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 216 of file foo.bib
+ : @article{pat
+ :             ,
+I'm skipping whatever remains of this entry
+Name 1 in "J. Ensworth, and M. Reynolds" has a comma at the end for entry ens
+while executing---line 1185 of file alpha.bst
+Name 1 in "J. Ensworth, and M. Reynolds" has a comma at the end for entry ens
+while executing---line 1185 of file alpha.bst
+Name 1 in "P. Martin, B. Ho, N. Grupen, S. Munoz, and M. Srivastava" has a comma at the end for entry mar
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "P. Martin, B. Ho, N. Grupen, S. Munoz, and M. Srivastava" for entry mar
+while executing---line 1185 of file alpha.bst
+Name 1 in "P. Martin, B. Ho, N. Grupen, S. Munoz, and M. Srivastava" has a comma at the end for entry mar
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "P. Martin, B. Ho, N. Grupen, S. Munoz, and M. Srivastava" for entry mar
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Geng, J. Chen, R. Fu, G. Bao, and K. Pahlavan" has a comma at the end for entry gen15a
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Y. Geng, J. Chen, R. Fu, G. Bao, and K. Pahlavan" for entry gen15a
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Geng, J. Chen, R. Fu, G. Bao, and K. Pahlavan" has a comma at the end for entry gen15a
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Y. Geng, J. Chen, R. Fu, G. Bao, and K. Pahlavan" for entry gen15a
+while executing---line 1185 of file alpha.bst
+Name 1 in "A. Corna, L. Fontana, A. Nacci, and D. Sciuto" has a comma at the end for entry cor
+while executing---line 1185 of file alpha.bst
+Name 1 in "A. Corna, L. Fontana, A. Nacci, and D. Sciuto" has a comma at the end for entry cor
+while executing---line 1185 of file alpha.bst
+Name 1 in "L. Bassbouss, G. Guclu, and S. Steglich" has a comma at the end for entry bas
+while executing---line 1185 of file alpha.bst
+Name 1 in "L. Bassbouss, G. Guclu, and S. Steglich" has a comma at the end for entry bas
+while executing---line 1185 of file alpha.bst
+Name 1 in "C. Kim, and S. Lee" has a comma at the end for entry kim
+while executing---line 1185 of file alpha.bst
+Name 1 in "C. Kim, and S. Lee" has a comma at the end for entry kim
+while executing---line 1185 of file alpha.bst
+Warning--to sort, need author or key in estlink
+Name 1 in "S. Cheng, J. Huang, and C. Lin" has a comma at the end for entry che
+while executing---line 1185 of file alpha.bst
+Name 1 in "S. Cheng, J. Huang, and C. Lin" has a comma at the end for entry che
+while executing---line 1185 of file alpha.bst
+Name 1 in "S. Youn, J. Ahn, and K. Park" has a comma at the end for entry you
+while executing---line 1185 of file alpha.bst
+Name 1 in "S. Youn, J. Ahn, and K. Park" has a comma at the end for entry you
+while executing---line 1185 of file alpha.bst
+Name 1 in "B. Ivanov, H. Ruser, and M. Kellner" has a comma at the end for entry iva
+while executing---line 1185 of file alpha.bst
+Name 1 in "B. Ivanov, H. Ruser, and M. Kellner" has a comma at the end for entry iva
+while executing---line 1185 of file alpha.bst
+Warning--to sort, need author or key in premalink
+Name 1 in "Y. Benezeth, H. Laurent, B. Emile, and C. Rosenberger" has a comma at the end for entry ben
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Benezeth, H. Laurent, B. Emile, and C. Rosenberger" has a comma at the end for entry ben
+while executing---line 1185 of file alpha.bst
+Name 1 in "J. He, Y. Geng, Y. Wan, S. Li, and K. Pahlavan" has a comma at the end for entry he
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "J. He, Y. Geng, Y. Wan, S. Li, and K. Pahlavan" for entry he
+while executing---line 1185 of file alpha.bst
+Name 1 in "J. He, Y. Geng, Y. Wan, S. Li, and K. Pahlavan" has a comma at the end for entry he
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "J. He, Y. Geng, Y. Wan, S. Li, and K. Pahlavan" for entry he
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Geng, and K. Pahlavan" has a comma at the end for entry gen15b
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Geng, and K. Pahlavan" has a comma at the end for entry gen15b
+while executing---line 1185 of file alpha.bst
+Name 1 in "N. Patwari, J.N. Ash, S. Kyperountas, and et, al." has a comma at the end for entry pat05
+while executing---line 1185 of file alpha.bst
+Name 1 in "N. Patwari, J.N. Ash, S. Kyperountas, and et, al." has a comma at the end for entry pat05
+while executing---line 1185 of file alpha.bst
+Name 1 in "N. Patwari, A.O. Hero, M. Perkins, and et, al" has a comma at the end for entry pat03
+while executing---line 1185 of file alpha.bst
+Name 1 in "N. Patwari, A.O. Hero, M. Perkins, and et, al" has a comma at the end for entry pat03
+while executing---line 1185 of file alpha.bst
+Name 1 in "Z. Li, Y. Yang, and K. Pahlavan" has a comma at the end for entry lzc
+while executing---line 1185 of file alpha.bst
+Name 1 in "Z. Li, Y. Yang, and K. Pahlavan" has a comma at the end for entry lzc
+while executing---line 1185 of file alpha.bst
+Name 1 in "J. Ying, C. Ren, and K. Pahlavan" has a comma at the end for entry yin
+while executing---line 1185 of file alpha.bst
+Name 1 in "J. Ying, C. Ren, and K. Pahlavan" has a comma at the end for entry yin
+while executing---line 1185 of file alpha.bst
+Name 1 in "N. Patwari, A.O. Hero III, M. Perkins, N. Correal, and R. O'Dea" has a comma at the end for entry pat
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "N. Patwari, A.O. Hero III, M. Perkins, N. Correal, and R. O'Dea" for entry pat
+while executing---line 1185 of file alpha.bst
+Name 1 in "N. Patwari, A.O. Hero III, M. Perkins, N. Correal, and R. O'Dea" has a comma at the end for entry pat
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "N. Patwari, A.O. Hero III, M. Perkins, N. Correal, and R. O'Dea" for entry pat
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Qi, H. Suda, and H. Kobayashi" has a comma at the end for entry qi
+while executing---line 1185 of file alpha.bst
+Name 1 in "Y. Qi, H. Suda, and H. Kobayashi" has a comma at the end for entry qi
+while executing---line 1185 of file alpha.bst
+Name 1 in "A. Corna, L. Fontana, A. Nacci, and D. Sciuto" has a comma at the end for entry cor
+while executing---line 1250 of file alpha.bst
+Warning--there's a number but no volume in cor
+Name 1 in "B. Ivanov, H. Ruser, and M. Kellner" has a comma at the end for entry iva
+while executing---line 1250 of file alpha.bst
+Name 1 in "J. Ensworth, and M. Reynolds" has a comma at the end for entry ens
+while executing---line 1250 of file alpha.bst
+Warning--empty author in estlink
+Warning--empty year in estlink
+Name 1 in "Y. Geng, and K. Pahlavan" has a comma at the end for entry gen15b
+while executing---line 1250 of file alpha.bst
+Name 1 in "J. He, Y. Geng, Y. Wan, S. Li, and K. Pahlavan" has a comma at the end for entry he
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "J. He, Y. Geng, Y. Wan, S. Li, and K. Pahlavan" for entry he
+while executing---line 1250 of file alpha.bst
+Warning--empty title in he
+Warning--empty journal in he
+Warning--empty year in he
+Name 1 in "J. Ying, C. Ren, and K. Pahlavan" has a comma at the end for entry yin
+while executing---line 1250 of file alpha.bst
+Name 1 in "C. Kim, and S. Lee" has a comma at the end for entry kim
+while executing---line 1250 of file alpha.bst
+Warning--there's a number but no volume in kim
+Name 1 in "L. Bassbouss, G. Guclu, and S. Steglich" has a comma at the end for entry bas
+while executing---line 1250 of file alpha.bst
+Warning--there's a number but no volume in bas
+Name 1 in "N. Patwari, A.O. Hero, M. Perkins, and et, al" has a comma at the end for entry pat03
+while executing---line 1250 of file alpha.bst
+Name 1 in "N. Patwari, J.N. Ash, S. Kyperountas, and et, al." has a comma at the end for entry pat05
+while executing---line 1250 of file alpha.bst
+Name 1 in "N. Patwari, A.O. Hero III, M. Perkins, N. Correal, and R. O'Dea" has a comma at the end for entry pat
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "N. Patwari, A.O. Hero III, M. Perkins, N. Correal, and R. O'Dea" for entry pat
+while executing---line 1250 of file alpha.bst
+Name 1 in "P. Martin, B. Ho, N. Grupen, S. Munoz, and M. Srivastava" has a comma at the end for entry mar
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "P. Martin, B. Ho, N. Grupen, S. Munoz, and M. Srivastava" for entry mar
+while executing---line 1250 of file alpha.bst
+Warning--there's a number but no volume in mar
+Warning--empty author in premalink
+Warning--empty year in premalink
+Name 1 in "S. Cheng, J. Huang, and C. Lin" has a comma at the end for entry che
+while executing---line 1250 of file alpha.bst
+Name 1 in "S. Youn, J. Ahn, and K. Park" has a comma at the end for entry you
+while executing---line 1250 of file alpha.bst
+Warning--there's a number but no volume in you
+Name 1 in "Y. Benezeth, H. Laurent, B. Emile, and C. Rosenberger" has a comma at the end for entry ben
+while executing---line 1250 of file alpha.bst
+Name 1 in "Y. Geng, J. Chen, R. Fu, G. Bao, and K. Pahlavan" has a comma at the end for entry gen15a
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "Y. Geng, J. Chen, R. Fu, G. Bao, and K. Pahlavan" for entry gen15a
+while executing---line 1250 of file alpha.bst
+Warning--empty title in yor
+Name 1 in "Y. Qi, H. Suda, and H. Kobayashi" has a comma at the end for entry qi
+while executing---line 1250 of file alpha.bst
+Name 1 in "Z. Li, Y. Yang, and K. Pahlavan" has a comma at the end for entry lzc
+while executing---line 1250 of file alpha.bst
+You've used 26 entries,
+            2543 wiz_defined-function locations,
+            686 strings with 8608 characters,
+and the built_in function-call counts, 8922 in all, are:
+= -- 888
+> -- 414
+< -- 7
++ -- 135
+- -- 128
+* -- 627
+:= -- 1504
+add.period$ -- 73
+call.type$ -- 26
+change.case$ -- 146
+chr.to.int$ -- 26
+cite$ -- 43
+duplicate$ -- 369
+empty$ -- 629
+format.name$ -- 156
+if$ -- 1802
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 26
+newline$ -- 128
+num.names$ -- 72
+pop$ -- 125
+preamble$ -- 1
+purify$ -- 174
+quote$ -- 0
+skip$ -- 332
+stack$ -- 0
+substring$ -- 388
+swap$ -- 42
+text.length$ -- 7
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 208
+warning$ -- 15
+while$ -- 81
+width$ -- 28
+write$ -- 317
+(There were 68 error messages)

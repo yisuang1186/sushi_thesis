@@ -1,0 +1,159 @@
+\begin{thebibliography}{YQK04}
+
+\bibitem[ACS15]{cor}
+A.~Nacci A.~Corna, L.~Fontana and D.~Sciuto.
+\newblock Occupancy detection via ibeacon on android devices for smart building
+  management.
+\newblock {\em Proceedings of the 2015 Design, Automation \& Test in Europe
+  Conference \& Exhibition}, (629-632), March 2015.
+
+\bibitem[BIK02]{iva}
+H.~Ruser B.~Ivanov and M.~Kellner.
+\newblock Presencedetectionand person identification in smart homes. in int.
+  conf. sensors and systems, st. petersburg.
+\newblock {\em Int. Conf. Sensors and Systems}, June 2002.
+
+\bibitem[CK02]{che02}
+Y.~Chen and H.~Kobayashi.
+\newblock Signal strength based indoor geolocation.
+\newblock {\em IEEE International Conference on Communications, 2002},
+  1:436--439, 2002.
+
+\bibitem[ER15]{ens}
+J.~Ensworth and M.~Reynolds.
+\newblock Every smart phone is a backscatter reader: Modulated backscatter
+  compatibility with bluetooth 4.0 low energy (ble) devices.
+\newblock {\em 2015 IEEE International Conference on RFID (RFID)}, pages
+  78--85, 2015.
+
+\bibitem[est]{estlink}
+The manual of estimote ibeacons.
+\newblock {\em http://developer.estimote.com/}.
+
+\bibitem[GG05]{gus}
+F.~Gustafsson and F.~Gunnarsson.
+\newblock Mobile positioning using wireless networks, possibilities and
+  fundamental limitations based on available wireless network measurements.
+\newblock {\em IEEE Signal Processing Magazine}, 22(4):41--53, July 2005.
+
+\bibitem[GP15]{gen15b}
+Y.~Geng and K.~Pahlavan.
+\newblock Design, implementation and fundamental limits of image and rf based
+  wireless capsule endoscopy hybrid localization.
+\newblock {\em IEEE Transactions on Mobile Computing}, 2015.
+
+\bibitem[JHP]{he}
+Y.~Wan S.~Li J.~He, Y.~Geng and K.~Pahlavan.
+
+\bibitem[JYP16]{yin}
+C.~Ren J.~Ying and K.~Pahlavan.
+\newblock A barometer-assisted method to evaluate 3d patient geolocation inside
+  hospital.
+\newblock {\em IEEE 10th International Symposium on Medical Information and
+  Communication Technology (ISMICT'16)}, pages 1--5, 2016.
+
+\bibitem[KL14]{kim}
+C.~Kim and S.~Lee.
+\newblock A research on beacon code architecture extension using category and
+  code beacon structure.
+\newblock {\em 2014 International Conference on Information and Communication
+  Technology Convergence (ICTC)}, (187-188), October 2014.
+
+\bibitem[LBS14]{bas}
+G.~Guclu L.~Bassbouss and S.~Steglich.
+\newblock Towards a remote launch mechanism of tv companion applications using
+  ibeacon.
+\newblock {\em 2014 IEEE 3rd Global Conference on Consumer Electronics (GCCE)},
+  (538-539), October 2014.
+
+\bibitem[NPe03]{pat03}
+M.~Perkins N.~Patwari, A.O.~Hero and al~et.
+\newblock Relative location estimation in wireless sensor networks, , vol.51,
+  no.8, pp.2137-2148, aug. 2003.
+\newblock {\em IEEE Transactions on Signal Processing}, 51(8):2137--2148,
+  August 2003.
+
+\bibitem[NPe05]{pat05}
+S.~Kyperountas N.~Patwari, J.N.~Ash and al. et.
+\newblock Locating the nodes: Cooperative localization in wireless sensor
+  networks.
+\newblock {\em IEEE Signal Processing Magazine}, 22(4):54--69, 2005.
+
+\bibitem[NPO03]{pat}
+M.~Perkins N.~Correal N.~Patwari, A.O. Hero~III and R.~O'Dea.
+\newblock Relative location estimation in wireless sensor networks.
+\newblock {\em IEEE Transactions on Signal Processing}, 8:2137--2148, 2003.
+
+\bibitem[PMS14]{mar}
+N.~Grupen S.~Munoz P.~Martin, B.~Ho and M.~Srivastava.
+\newblock An ibeacon primer for indoor localization: demo abstract.
+\newblock {\em Proceedings of the 1st ACM Conference on Embedded Systems for
+  Energy-Efficient Buildings}, (190-191), November 2014.
+
+\bibitem[Poo94]{poo}
+H.V. Poor.
+\newblock An introduction to signal detection and estimation.
+\newblock {\em Springer Science and Business Media}, 1994.
+
+\bibitem[pre]{premalink}
+The manual of theprema.
+\newblock {\em
+  http://www.theben.de/var/theben/storage/ilcatalogue/files/pdf/Productinformation
+  thePrema 360Slave en.PDF}.
+
+\bibitem[SCL12]{che}
+J.~Huang S.~Cheng and C.~Lin.
+\newblock A real-time location and infant monitoring system based on active
+  rfid.
+\newblock {\em 2012 International Conference on Machine Learning and
+  Cybernetics (ICMLC)}, 5(1844-1849), 2012.
+
+\bibitem[SYP08]{you}
+J.~Ahn S.~Youn and K.~Park.
+\newblock Entrance detection of a moving object using intensity average
+  variation of subtraction images.
+\newblock {\em 2008 International Conference on Smart Manufacturing Application
+  (ICSMA)}, (459-464), April 2008.
+
+\bibitem[Tre68]{tre}
+H.L.~Van Trees.
+\newblock Detection, estimation and modulation theory - part i.
+\newblock {\em Weily}, 1968.
+
+\bibitem[YBR11]{ben}
+B.~Emile Y.~Benezeth, H.~Laurent and C.~Rosenberger.
+\newblock Towards a sensor for detecting human presence and characterizing
+  activity. , 43(2), 305-314.
+\newblock {\em Energy and Buildings}, 43(2):305--314, 2011.
+
+\bibitem[Ye13]{ye13}
+Y.~Ye.
+\newblock Bounds on rf cooperative localization for video capsule endoscopy.
+\newblock {\em Diploma dissertation, Worcester Polytechnic Institute,
+  Worcester, Massachussets, USA}, June 2013.
+
+\bibitem[YGP15]{gen15a}
+R.~Fu G.~Bao Y.~Geng, J.~Chen and K.~Pahlavan.
+\newblock Enlighten wearable physiological monitoring systems: On-body rf
+  characteristics based human motion classification using a support vector
+  machine.
+\newblock {\em 2015 IEEE Transactions on Mobile Computing}, 2015.
+
+\bibitem[Yor98]{yor}
+D.~Yorkey.
+\newblock {\em U.S. Patent No. 5,805,064. Washington, DC: U.S. Patent and
+  Trademark Office}, 1998.
+
+\bibitem[YQK04]{qi}
+H.~Suda Y.~Qi and H.~Kobayashi.
+\newblock On time-of-arrival positioning in a multipath environment.
+\newblock {\em 2004 IEEE 60th Vehicular Technology Conference (VTC)},
+  5:3540--3544, 2004.
+
+\bibitem[ZLP16]{lzc}
+Y.~Yang Z.~Li and K.~Pahlavan.
+\newblock Using ibeacon for newborns localization in hospitals.
+\newblock {\em IEEE 10th International Symposium on Medical Information and
+  Communication Technology (ISMICT'16)}, pages 1--5, 2016.
+
+\end{thebibliography}

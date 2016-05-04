@@ -30,6 +30,6 @@
 \contentsline {section}{\numberline {4.5}Results and Discussion}{52}
 \contentsline {subsection}{\numberline {4.5.1}Effect of Different Deployment Patterns.}{53}
 \contentsline {subsection}{\numberline {4.5.2}Effect of Different Number of iBeacons}{54}
-\contentsline {chapter}{\numberline {5}Conclusion}{58}
-\contentsline {chapter}{\numberline {A}More to say}{59}
-\contentsline {section}{\numberline {A.1}A section within an appendix.}{59}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{58}
+\contentsline {chapter}{\numberline {A}More to say}{60}
+\contentsline {section}{\numberline {A.1}A section within an appendix.}{60}

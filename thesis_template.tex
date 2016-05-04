@@ -186,7 +186,7 @@ The overall objective of the project is the design, implementation, and performa
 
 Today, RFID detection is the most popular indoor detection technique. It provides high precision detection rate to distinguish the number of people in certain rooms of a building. However, special scanners and manual operations are required. This increases the cost and operation complexity. With the recent introduction of iBeacon by Apple, possibility of more efficient in-room presence detection has emerged for specific applications. An example of these applicatons is recording the number of visitors and newborns in a nursery room inside a hospital. The iBeacon uses Bluetooth Low Energy (BLE) technology for proximity broadcasting. Additionally, iBeacon carries a motion detection sensor, which can be utilized for counting the number of people and newborns entering and leaving a room.
 
-In this thesis we introduce a novel intelligent in-room presence detection system using iBeacon for the newborns in hospitals to determine the number of visitors and newborns in the nursery room. We first develop a software application on iPhone to receive and extract the necessary data from iBeacon for further analysis. We build the path-loss model for the iBeacon based on the received signal strength (RSS) of the iBeacon, which is used for performance evaluation using CRLB in Yang Yang’s project. We also utilize the accelerometer in the smart phones to improve the performance of our detection system.
+In this thesis we introduce a novel intelligent in-room presence detection system using iBeacon for the newborns in hospitals to determine the number of visitors and newborns' location in the nursery room. We first develop a software application on iPhone to receive and extract the necessary data from iBeacon for further analysis. We build the path-loss model for the iBeacon based on the received signal strength (RSS) of the iBeacon, which is used for performance evaluation using CRLB in Yang Yang’s project. We also utilize the accelerometer in the smart phones to improve the performance of our detection system.
 \end{abstract}
 
 % From here on, we need Roman page numbers according to the library
@@ -201,19 +201,17 @@ In this thesis we introduce a novel intelligent in-room presence detection syste
 	\textbf{Acknowledgements}
 \end{center}
 
-	I would like to express my gratitude to my advisor who made
-	sure the thesis has at least 120 pages, 200 pictures and lots
-	of formulae and thus made me master \LaTeX{} like my native
-	language.
+	In this thesis I describe the research I conducted in pursuit of my Master of Science Degree in Electrical \& Computer Engineering in Worcester Polytechnic Institute.
 
-        My thanks are also due to my reader... who has read the thesis
-        in the two days that I gave him since it wasn't done until two
-        days before due date.
+Firstly, I would like to offer my sincerest gratitude to my research advisor, Professor Kaveh Pahlavan, for leading me into the research field, for sharing his idea and life experience and for providing working opportunity in his conference. Professor Pahlavan is a kindly mentor and a wise man. It is my greatest honor to have him as my advisor. 
 
-	Thanks also to ... lots of friends, the fact that a week has
-	seven days instead of only five as I had always thought, and
-	the fact that I own a key to the building so I can work at four
-	in the morning whenever I feel like it. That is, all the time.
+I am really grateful that I can have Professor Emmanuel O. Agu and Professor Xinming Huang as my committee members. Thank you for the valuable comments and reviewing of this thesis. 
+
+I would like to thank my partner Yang Yang. We work together for almost one and a half years. Most of the contributions in our research are made by both of us. I really enjoy the time studying with Yang.
+
+I also want to thank all the peers in lab CWINS, Yishuang Geng, Julang Ying, Yuzhang Zang, Bader A. Alkandari, and Professor Liu. Thank these people so much for offering me a nice atmosphere in the lab like a big family. I would like give my especially thank to Yishuang. Over the one year and a half, he gives me plenty of help in both study and life. I cannot give a certain number that how many times he helped me until midnight. 
+
+I would like to delicate my thesis to my beloved parents, who offer me totally understanding, support and infinity love. Also to my grandparents, who are always proud of me.
 
 % P.S. You don't have to add me to the acknowledgements for providing 
 % this file :)
@@ -264,10 +262,10 @@ In this thesis we introduce a novel intelligent in-room presence detection syste
 % you want them to be called 1.1.1.1)
 %
 \chapter{Introduction}
-iBeacon is a class of Bluetooth Low Energy (BLE) devices that broadcast unique information to the nearby receivable devices. The unique information packet includes Universally Unique Identifier (UUID), major, and minor. All of them can be defined by the user. When these iBeacons are detected, the receivers can estimate the proximity as a reaction according to the Received Signal Strength Indication (RSSI) of the iBeacon. In brief, iBeacon is like the beacon in the ocean. It sends Bluetooth Low Energy signal instead of light to the receivers. Compared with traditional Bluetooth technology, iBeacon with BLE signal is intended to have similar coverage area yet less power consumption. With this advantage, iBeacon can be used for years without changing battery. The devices using BLE signal don't need to pair with each other when they communicate. Most of the smart phones, such as iPhone, Android and Blackberry, are compatible with BLE technology which indicates that they can perform collaborative operations with iBeacon. It is also expected to apply BLE on Windows Phones soon. That means we don't need to install special BLE receivers for iBeacon since almost everyone has a smart phone.
+iBeacon is a class of Bluetooth Low Energy (BLE) devices that broadcast unique information to the nearby receivable devices. The unique information packet includes Universally Unique Identifier (UUID), major, and minor. All of them can be defined by the user. When these iBeacons are detected, the receivers can estimate the proximity as a reaction according to the Received Signal Strength Indication (RSSI) of the iBeacon. In brief, iBeacon is like the beacon in the ocean. It sends Bluetooth Low Energy signal instead of light to the receivers. Compared with traditional Bluetooth technology, iBeacon with BLE signal is intended to have similar coverage area yet less power consumption. With this advantage, iBeacon can be used for years without changing battery. The devices using BLE signal don't need to pair with each other when they communicate. Most of the smart phones, such as iPhone, Android and Blackberry, are compatible with BLE technology which indicates that they can perform collaborative operations with iBeacon~\cite{ens}. It is also expected to apply BLE on Windows Phones soon. That means we don't need to install special BLE receivers for iBeacon since almost everyone has a smart phone.
 
 \section{Background and Motivation}
-iBeacon has many location-based applications. It can be used to develop indoor positioning systems~\cite{Mar14}\cite{Gen15}. It can be used to build an indoor proximity estimation system to detect the number of moving objects in a room, and even gather the patterns of their movement~\cite{Cor15}. Moreover, iBeacons can be also used as launching APPs on remote devices~\cite{Bas14}. The interest of industry for iBeacon is increasing as well. Not only Apple but enterprises such as Qualcomm, PayPal, and SKT carry forward related businesses by partnering with a variety of companies~\cite{Kim14}.
+iBeacon has many location-based applications. It can be used to develop indoor positioning systems~\cite{mar}~\cite{gen15a}. It can be used to build an indoor proximity estimation system to detect the number of moving objects in a room, and even gather the patterns of their movement~\cite{cor}. Moreover, iBeacons can be also used as launching APPs on remote devices~\cite{bas}. The interest of industry for iBeacon is increasing as well. Not only Apple but enterprises such as Qualcomm, PayPal, and SKT carry forward related businesses by partnering with a variety of companies~\cite{kim}.
 
 There are some differences between iBeacon and other traditional indoor localization technologies. First, the signal that iBeacon transmits is a one-way broadcast, which means only the receiving devices can get information from iBeacon, but they cannot send iBeacon information. Second, users have to install an application on their smartphones or other receiving devices before they use them to receive BLE signal. This will help users to protect their privacy because only the installed applications rather than the iBeacons can get their position information.
 
@@ -301,7 +299,7 @@ The thesis consists of two major sections and the major contribution of this the
 
 In the first major section we collected data for line-of-sight (LOS) situation in in-room environment, and then recognize in-room presence according to path-loss readings. Data in other situations and environments such as obstructed-line-of-sight (OLOS) and outdoor scenario has been also considered to guarantee the in-room presence detection accuracy. Based on the empirical measurement results, we deeply investigate the system performance in terms of error detection possibility. This system is specifically promising for some particular purposes such as graduate seminar check-in, security system, in-and-out counting.
 
-In the second major section we developed a new application to obtain the necessary data from iBeacon and then derive the real path-loss model for line-of-sight (LOS) situation in in-room environment on account of received signal strength indication (RSSI) analysis. Besides, we apply the iBeacon model used in Estimote iBeacons and compare the performance of those two models. Simulation results of Cramér-Rao low bound (CRLB) estimation of location error model are also given in this paper considering 2D and 3D scenarios respectively. After the feasibility analysis we conclude our work with a discussion on the feasibility of using iBeacon for locating and tracking rather than RFID, especially in hospitals.
+In the second major section we developed a new application to obtain the necessary data from iBeacon and then derive the real path-loss model for line-of-sight (LOS) situation in in-room environment on account of received signal strength indication (RSSI) analysis. Besides, we apply the iBeacon model used in Estimote iBeacons~\cite{estlink} and compare the performance of those two models. Simulation results of Cramér-Rao low bound (CRLB) estimation of location error model are also given in this paper considering 2D and 3D scenarios respectively. After the feasibility analysis we conclude our work with a discussion on the feasibility of using iBeacon for locating and tracking rather than RFID, especially in hospitals~\cite{che}.
 
 \section{Thesis Outline}
 This thesis is organized as follow: Chapter 1 provided a brief introduction to the iBeacon technology. Chapter 2 introduced the background and comparison of the existed in-room localization technologies, such as RF-based localization, inertia-based localization, and camera-based localization. Chapter 3 presented the methodology for project-used application development. Chapter 4 discussed the intelligent in-room presence detection system. Chapter 5 proposed the path-loss model of iBeacon and the performance evaluation based on CRLB. Last but not the least, Chapter 6 presented the conclusion of this thesis and discussion of the future work. 
@@ -339,7 +337,7 @@ In this project we use the iBeacon producted by Estimote. We use iBeacon of 2 di
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{1.5}{\includegraphics[]{pictures/3_2.eps}}
+			\scalebox{0.5}{\includegraphics[]{pictures/3_2.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{First Generation iBeacon of Estimote.}
@@ -353,7 +351,7 @@ The parameters of iBeacon are editable. Users can define the parameters by thems
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{c}
-			\scalebox{1.5}{\includegraphics[]{pictures/3_3.eps}}
+			\scalebox{0.7}{\includegraphics[]{pictures/3_3.eps}}
 		\end{tabular}
 	\end{center}
 	\caption{Second Generation iBeacon of Estimote.}
@@ -565,9 +563,9 @@ With the previous chapter serving as a background of our system, it is clear tha
 To facilitate the description of our algorithms, we assume that the entrance door automatically shuts after an individual goes into or out of the room. We first and foremost focus on the system implementation with two iBeacons, one of them attached to the outside of door while another mirroring at the inside. Such implementation provides adequate understanding on the physical phenomenon. After that, we move on to single iBeacon implementation, for which our system still performs well enough, but works with less expenses and more convenience. The performace of both algorithms are provided as an evaluation metric and we discuss the the effect of smart phone location at the end of this chapter.
 
 \section{Background}
-Presence detection is a common application for smart phones, which may contribute to energy-efficient intelligent lighting control, smart heating and air-conditioning, home security system and etc. In public area, the in-room presence detection technologies can be also used to count the registration and check-in of an event. Existing literature introduces two major technical trends to implement in-room presence detection systems. At the beginning stage, the research community mounts various sensors to the room ceiling and tries to cover the room as much as possible. Sujin et. al [7], proposed a digital camera and image processing based presence detection system using intensity average variation to detect moving objects; Neubiberg et. al [8], presents a 360o rotational camera based approach to enhance the camera coverage. Visible light sensing technique has been also employed in such systems and it has been even commercialized as products [9]. 
+Presence detection is a common application for smart phones, which may contribute to energy-efficient intelligent lighting control, smart heating and air-conditioning, home security system and etc. In public area, the in-room presence detection technologies can be also used to count the registration and check-in of an event. Existing literature introduces two major technical trends to implement in-room presence detection systems. At the beginning stage, the research community mounts various sensors to the room ceiling and tries to cover the room as much as possible. Sujin et. al~\cite{you}, proposed a digital camera and image processing based presence detection system using intensity average variation to detect moving objects; Neubiberg et. al~\cite{iva}, presents a 360o rotational camera based approach to enhance the camera coverage. Visible light sensing technique has been also employed in such systems and it has been even commercialized as products~\cite{premalink}. 
 
-The above mentioned first technical trend suffers from certain disadvantages. First and foremost, the pre-deployment of the infrastructure is not unified. Take the theP remaTM in [9] as an example, only single sensor is required to cover a squared room but multiple sensors are necessary for an irregularly shaped room. As a consequence, the infrastructure cost is site-specific and it can goes exponentially high. To address that issue, the second trend locates sensors only to the entrance of the room. Motion sensors [10] and infrared sensors [11][12] are attached to the room entrance to count either entering or leaving of the individuals. Such techniques successfully cut down the cost but it still suffer the lack of ability to identify the presented individuals. 
+The above mentioned first technical trend suffers from certain disadvantages. First and foremost, the pre-deployment of the infrastructure is not unified. Take the thePremaTM in~\cite{premalink} as an example, only single sensor is required to cover a squared room but multiple sensors are necessary for an irregularly shaped room. As a consequence, the infrastructure cost is site-specific and it can goes exponentially high. To address that issue, the second trend locates sensors only to the entrance of the room. Motion sensors~\cite{yor} and infrared sensors~\cite{ben}~\cite{he} are attached to the room entrance to count either entering or leaving of the individuals. Such techniques successfully cut down the cost but it still suffer the lack of ability to identify the presented individuals. 
 
 iBeacon based system in this work is a potentially good choice without all above imperfections. With highly limited cost and long enough battery life, iBeacon is able to perform proximity estimation and at the same time identify the adjacent individuals. It also carries various other additional functionalities such as smart advertising. Considering the advantages of iBeacon, we propose to use iBeacon for presence detection in this work.
 
@@ -1011,10 +1009,10 @@ Since we want find the most efficient way of localization, different deployment 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Evaluation Metric and CRLB Derivation}
-In estimation theory and statistics, the Cramer-Rao Lower Bound (CRLB) expresses a lower bound on the variance of estimators of a deterministic parameter [40][41]. In its simplest form, the bound states that the variance of any unbiased estimator is at least as high as the inverse of the Fisher informa- tion [41]. Since the CRLB develops the lowest possible root-mean-square (RMS) error among all unbiased methods, it has been soon applied to navigation and geolocation science and technology [42][43]. CRLB has been discovered to be able to estimating the max possible performance of certain localization system or evaluating the potential improvement of specific localization algorithm. Both aspects help avoiding unnecessary implementation of the actual localization approach [44].
+In estimation theory and statistics~\cite{gen15b}, the Cramer-Rao Lower Bound (CRLB) expresses a lower bound on the variance of estimators of a deterministic parameter~\cite{tre}~\cite{poo}. In its simplest form, the bound states that the variance of any unbiased estimator is at least as high as the inverse of the Fisher information~\cite{poo}. Since the CRLB develops the lowest possible root-mean-square (RMS) error among all unbiased methods, it has been soon applied to navigation and geolocation science and technology~\cite{pat05}~\cite{gus}. CRLB has been discovered to be able to estimating the max possible performance of certain localization system or evaluating the potential improvement of specific localization algorithm. Both aspects help avoiding unnecessary implementation of the actual localization approach~\cite{pat03}.
 
 % add CRLB derivation
-Consider the smart phone whose location is being estimated is indexed by 1, and there are $m$ iBeacons mounted inside the room with indexes 2...$m + 1$ ($m = 5$ when considering the in-room loclization project in this thesis). Each iBeacon $i$ provides an RSSI reading $r_i$, which can be determing by the iBeacon id $i$ in data collection phase. For such estimation process, the observation vector of RSSI from each iBeacon can be given as 
+Consider the smart phone whose location is being estimated is indexed by 1, and there are $m$ iBeacons mounted inside the room with indexes 2...$m + 1$ ($m = 5$ when considering the in-room loclization project in this thesis). Each iBeacon $i$ provides an RSSI reading $r_i$, which can be determing by the iBeacon id $i$ in data collection phase~\cite{ye13}. For such estimation process, the observation vector of RSSI from each iBeacon can be given as 
 
 \begin{equation}
 X = [r_2, r_3, ..., r_{m + 1}]
@@ -1028,7 +1026,7 @@ f_{r_i/ \theta_1,\theta_i} \sim N(P_r, \sigma^2_{SF})
 
 where $P_r$ is the received power, which is equivalent to the RSSI reading in terms of dB. The measurement of $r_i$, $f_{r_i/ \theta_1,\theta_i}$ is log-normally distributed as mentioned in equation(4.1) as $P_r$(dB) = $P_0$(dB) - $10\alpha\log_{10} (d_{1,i})$, where $P_0$ is equivalent to the $L_p (d_0)$ term in equation(4.1). 
 
-With such radio propagation channel model, the CRLB of $\hat{\theta}_1$ is $cov(\hat{\theta}_1) \geq I(\theta_1)^{-1}$, where the $I(\theta_1)$ is the Fisher information matrix (FIM) given as 
+With such radio propagation channel model, the CRLB of $\hat{\theta}_1$ is $cov(\hat{\theta}_1) \geq I(\theta_1)^{-1}$, where the $I(\theta_1)$ is the Fisher information matrix (FIM) given as~\cite{lzc}~\cite{yin}~\cite{che02}
 
 \begin{equation}
 I_{\theta_1, \theta_i} = -E\nabla_{\theta_1, \theta_i}(\nabla_{\theta_1, \theta_i} \ln l (X|\theta_1,\theta_i)) = 
@@ -1075,7 +1073,7 @@ Finally, the CRLB on the variance of RSS based location estimation can be given 
 I(\theta_1)^{-1})
 \end{equation}
 
-The derivation of 2D CRLB can be expanded into 3D cases by adding a z-axsis and apply the similar mathematics, meaning that $\theta_1 = [x_1, y_1]$ should be changed into $\theta_1 = [x_1, y_1, z_1]$. Accordingly, the equation (4.6) should be re-written as 
+The derivation of 2D CRLB~\cite{pat}~\cite{qi} can be expanded into 3D cases by adding a z-axsis and apply the similar mathematics, meaning that $\theta_1 = [x_1, y_1]$ should be changed into $\theta_1 = [x_1, y_1, z_1]$. Accordingly, the equation (4.6) should be re-written as 
 
 \begin{equation}
 I_{\theta_1, \theta_i} = -E\nabla_{\theta_1, \theta_i}(\nabla_{\theta_1, \theta_i} \ln l (X|\theta_1,\theta_i)) = 
@@ -1209,7 +1207,12 @@ Above is the error estimation result with 3,4 and 5 iBeacons in the middle area 
 
 Obviously, 5 iBeacons owes the best performance, however, we can find that the improvement from 3 iBeacons to 4 iBeacons is significant while the improvement from 4 iBeacons to 5 iBeacons is negligible. So we can assert that the deployment with 4 iBeacons in the middle area contains the highest efficiency. The overall performance is concluded in table-4.
 
-\chapter{Conclusion}
+\chapter{Conclusion and Future Work}
+In this master thesis, we first developed the iBeacon based intelligent in-room presence detection system and evaluated its performance. In order to extract the RSSI data of iBeacon to do further analysis, we developed our own iOS application based on the Software Development Kit provided by Estimote. We defined three scenarios of human movement, which are entering, leaving, and passing the room. Based on the data we collected, we designed two algorithms to distinguish those three scenarios. To make sure that the place we put the receiver won't effect the detection rate, we put the receiver in hand, pants pocket, and shirt pocket when we did performance evaluation of two algorithms. The detection rates of two algorithms are almost 100\%. We got the conclusion that both of the algorithms are reliable. Since single iBeacon approach required less iBeacons and the algorithm is simpler, we thought single iBeacon approach is adequate.  
+
+After that, we built the path-loss model of iBeacon and did the performance evaluation of iBeacon based in-room localization. We calculated the Estimote iBeacon model and computed real path-loss model. After comparing CDF of two models we found out the real path-loss model is better. We evaluated the performance of different deployment patterns of iBeacon by using CRLB. When there were five iBeacons in the room, putting one at the center of the room and four at the midpoints of diagonals will reach the best performance. We also studied the optimal number of iBeacon which can provide the best performance. The conclusion is we can improve the performance by using more iBeacon, but the improvement is negligible when the number of iBeacons is larger than five.
+
+The contribution of this thesis is two-folded: 1) We developed the intelligent in-room presence detection system by using iBeacon. Two algorithms was developed and their performance was analyzed. 2) We found out the optimal deployment pattern and number of iBeacon of in-room localization by using CRLB. 
 
 
 % Let's assume this is the end of your thesis text.
